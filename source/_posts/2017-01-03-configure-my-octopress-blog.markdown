@@ -3,7 +3,7 @@ layout: post
 title: "Configure My Octopress Blog"
 author: Hengfeng Wei (hengxin)
 date: 2017-01-03 10:16:06 +0800
-publish: true
+published: true
 comments: true
 categories: [Octopress, Blogging]
 ---
