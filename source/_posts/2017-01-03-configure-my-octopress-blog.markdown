@@ -23,6 +23,8 @@ Descriptions can be found in [the Official Doc: Configuring Octopress](http://oc
 
 ### Jekyll & Plugins
 
+- titlecase: false
+
 ### 3rd Party Settings
 
 - github_user: hengxin
@@ -32,3 +34,7 @@ Descriptions can be found in [the Official Doc: Configuring Octopress](http://oc
 - disqus_short_name: (TODO)
 - disqus_show_comment_count: true
 - google_analytics_tracking_id: (TODO)
+
+## Styles
+
+- [Indenting Octopress List Items](http://kwballing.github.io/2014/05/15/indenting-octopress-list-items/) (file: `sass/custom/_styles.scss`)
