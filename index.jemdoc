@@ -1,0 +1,63 @@
+# jemdoc: menu{MENU}{index.html}, nofooter
+==Hengfeng Wei (魏恒峰)
+
+~~~
+{}{img_left}{figs/hfwei-blue.jpg}{Hengfeng Wei}{120}{160}{https://software.nju.edu.cn/szll/szdw/index.html}\n
+*Research Assistant* \n
+(From 2017-01)
+\n\n
+[https://software.nju.edu.cn/ Software Institute] \n
+State Key Laboratory for Novel Software Technology \n
+[https://www.nju.edu.cn/ Nanjing University] \n
+\n
+[cv-en.pdf CV (en)] [cv-ch.pdf CV (ch)]
+~~~
+
+~~~
+{}{img_left}{figs/hfwei-mail.png}{hfwei}{120}{30}{https://software.nju.edu.cn/szll/szdw/index.html}\n
+~~~
+
+~~~
+== About me
+I received the B.S. and Ph.D. degrees in computer science and technology
+from Nanjing University, Nanjing, in 2009 and 2016, respectively.
+
+From 2017-01 to 2020-07, I was an assistant professor
+with the Department of Computer Science and Technology at Nanjing University.
+
+[research.html My research interests include distributed computing and formal methods. *<<more>>*]
+~~~
+
+~~~
+=== Recent Publications
+. Lingzhi Ouyang, Yu Huang, *Hengfeng Wei*, Jian Lu.
+/Achieving Probabilistic Atomicity with Well-Bounded Staleness and Low Read Latency in Distributed Datastores/.
+IEEE Transactions on Parallel and Distributed Systems (TPDS), 32(4):815-829, Apr. 2021.
+. *Hengfeng Wei*, Ruize Tang, Yu Huang, Jian Lu.
+/Jupiter Made Abstract, and Then Refined/.
+Journal of Computer Science and Technology (JCST), 35(6):1343-1364, Dec. 2020.
+. Xue Jiang, *Hengfeng Wei*, Yu Huang.
+/A Generic Specification Framework for Weakly Consistent Replicated Data Types/.
+In the Proceeding of the 39th International Symposium on Reliable Distributed
+Systems (SRDS), Sep. 2020.
+. Kaile Huang, Yu Huang, *Hengfeng Wei*.
+/Fine-grained Analysis on Fast Implementations of Distributed Multi-writer Atomic Registers/.
+In the Proceeding of the ACM Symposium on Principles of Distributed Computing (PODC), Aug. 2020.
+. Xingchen Yi, *Hengfeng Wei*, Yu Huang, Lei Qiao, Jian Lu.
+/TPaxos in PaxosStore: Derivation, Specification and Refinement (in Chinese)/.
+Journal of Software (JOS), 31(8), 2020.
+. Ye Ji, *Hengfeng Wei*, Yu Huang, Jian Lu.
+/Specifying and Verifying CRDT Protocols Using TLA+ (in Chinese)/.
+Journal of Software (JOS), 31(5), 2020.
+
+\n
+[publications.html *Full List of Publications*]
+~~~
+
+~~~
+=== Teaching
+- Discrete Mathematics
+- Compilers
+- Problem Solving
+~~~
+
