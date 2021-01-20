@@ -20,11 +20,11 @@ My homepage hosted by [jemdoc](https://jemdoc.jaboc.net/).
   - auto-compile
   - auto-deploy
   - +chinese version
+  - Google Analytics (ref: https://jemdoc.jaboc.net/modelines.html)
 - +funding
 - +awards
 - links
   - +gotsman
-  - +TIME
 - menu
   - +recruit
   - +projects
