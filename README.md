@@ -16,9 +16,9 @@ My homepage hosted by [jemdoc](https://jemdoc.jaboc.net/).
   - +pdf
   - +CCF grade
   - +comments
+  - +WIP
 - jemdoc
-  - auto-compile
-  - auto-deploy
+  - [make](https://jemdoc.jaboc.net/stuff.html)
   - +chinese version
   - Google Analytics (ref: https://jemdoc.jaboc.net/modelines.html)
 - +funding
