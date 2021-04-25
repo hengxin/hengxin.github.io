@@ -1,7 +1,8 @@
 # jemdoc: menu{MENU}{enrollment.html}, nofooter
 ==Hengfeng Wei (魏恒峰)
 
-如果你对以下科研课题或项目课题感兴趣, 欢迎与我联系。
+如果你对以下科研课题或项目课题感兴趣, 欢迎与我联系。\n
+(如果我对你也同样感兴趣, 一般会在两天内回复邮件。)
 
 ~~~
 == 科研课题
@@ -14,7 +15,7 @@
 === 分布式计算
 - [https://www.mongodb.com/2 MongoDB] 数据库测试与应用开发
   -- 以参加 [https://mongoing.com/archives/25744 MongoDB Hackathon] 等类似赛事为激励目标
-  -- 语言需求: C++
+  -- 语言需求: C\+\+
 - [https://lamport.azurewebsites.net/tla/tla.html TLA+/TLC] 工具功能扩展开发
   -- 内容: 可视化、动画、调试工具等
   -- 语言需求: Java、TLA+

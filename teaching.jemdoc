@@ -1,0 +1,19 @@
+# jemdoc: menu{MENU}{teaching.html}, nofooter
+==Hengfeng Wei (魏恒峰)
+
+/@software.nju.edu.cn/ 的课程长期招聘助教, 欢迎本科生或研究生与我联系。
+
+~~~
+=== [https://github.com/courses-at-nju-by-hfwei Teaching]
+- The C Programming Language (/@software.nju.edu.cn/)
+  -- 2021 Fall (Stay Tuned)
+- [https://github.com/orgs/courses-at-nju-by-hfwei/teams/discrete-math-at-nju-software/repositories *Discrete Mathematics*] (/@software.nju.edu.cn/)
+  -- 2021 Spring (TAs: [https://fancypei.github.io/ 裴一凡] [https://github.com/RosalieMiao 戴若石] [https://github.com/Rivers-Shall 肖江])
+- [https://github.com/orgs/courses-at-nju-by-hfwei/teams/compilers-course-at-nju-software/repositories *Compilers*] (/@software.nju.edu.cn/)
+  -- 2020 Fall~~\[[https://github.com/courses-at-nju-by-hfwei/compilers-lectures Lectures]\] ~ \[[http://problemoverflow.cn/compilers/ Labs]\]
+  -- 2021 Fall (Stay Tuned)
+- [http://cslabcms.nju.edu.cn/problem_solving/ *Problem Solving*] (/@cs.nju.edu.cn/)
+  -- 2017 Spring (IV)
+  -- 2017 Fall (I), 2018 Spring (II), 2018 Fall (III), 2019 Spring (IV)
+  -- 2019 Fall (I), 2020 Spring (II)
+~~~
