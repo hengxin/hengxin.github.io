@@ -1,0 +1,30 @@
+# jemdoc: menu{MENU}{enrollment.html}, nofooter
+==Hengfeng Wei (魏恒峰)
+
+如果你对以下科研课题或项目课题感兴趣, 欢迎与我联系。
+
+~~~
+== 科研课题
+- Distributed Transactions (分布式事务)
+- Distributed Consensus (分布式共识问题)
+- Formal Methods (TLA+/TLAPS) (形式化方法)
+
+== 项目课题
+
+=== 分布式计算
+- [https://www.mongodb.com/2 MongoDB] 数据库测试与应用开发
+  -- 以参加 [https://mongoing.com/archives/25744 MongoDB Hackathon] 等类似赛事为激励目标
+  -- 语言需求: C++
+- [https://lamport.azurewebsites.net/tla/tla.html TLA+/TLC] 工具功能扩展开发
+  -- 内容: 可视化、动画、调试工具等
+  -- 语言需求: Java、TLA+
+- [https://pingcap.com/ TiDB] 数据库第三方工具开发
+  -- 以参加 [https://zhuanlan.zhihu.com/p/345523553 TiDB Hackathon] 等类似赛事为激励目标
+  -- 语言需求: Go/Rust
+- [https://jepsen.io/ Jepsen] 测试工具开发
+  -- 语言需求: Clojure
+
+=== 机器人
+- 智能爬壁机器人 (与邢佑路老师合作)
+  -- 内容: 地图生成、平衡控制、行走控制等
+~~~

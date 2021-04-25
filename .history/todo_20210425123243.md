@@ -1,0 +1,24 @@
+# todo
+
+- Profile
+  - +cv ([cv-en.pdf CV (en)] [cv-ch.pdf CV (ch)])
+  - +research statement
+- Publications
+  - +bib
+  - +abstract
+  - +funding
+  - +EI/SCI
+  - +pdf
+  - +CCF grade
+  - +comments
+  - +WIP
+- jemdoc
+  - [make](https://jemdoc.jaboc.net/stuff.html)
+  - +chinese version
+  - Google Analytics (ref: https://jemdoc.jaboc.net/modelines.html)
+- +funding
+- +awards
+- links
+  - +gotsman
+- menu
+  - +projects
