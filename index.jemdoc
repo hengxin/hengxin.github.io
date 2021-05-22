@@ -33,6 +33,12 @@ with the Department of Computer Science and Technology at Nanjing University.
 === Recent Publications
 *(\*: Corresponding Author)*
 ==== 2021
+. Manuel Bravo, Alexey Gotsman, Borja de Régil, and Hengfeng Wei.\n
+/UniStore: A Fault-tolerant Marriage of Causal and Strong Consistency/.\n
+USENIX Annual Technical Conference (*USENIX ATC*), accepted, 2021.
+. Xiaosong Gu, *Hengfeng Wei\**, Lei Qiao, Yu Huang.\n
+/Raft with Out-of-Order Executions (in Chinese)/.\n
+Journal of Software, accepted, 2021.
 . Hongrong Ouyang, *Hengfeng Wei\**, Yu Huang.\n
 /Checking Causal Consistency of MongoDB/.\n
 The 12th Asia-Pacific Symposium on Internetware (*Internetware 2020*), May 12-14. 2021.
