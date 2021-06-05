@@ -26,6 +26,6 @@
   -- 语言需求: Clojure
 
 === 机器人
-- [docs/Xing-Robot.pptx 智能爬壁机器人] (与邢佑路老师合作)
+- [docs/Xing-Robot.pptx 智能爬壁机器人] (邢佑路)
   -- 内容: 地图生成、平衡控制、行走控制等
 ~~~
