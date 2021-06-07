@@ -2,16 +2,14 @@
 
 - Profile
   - +cv ([cv-en.pdf CV (en)] [cv-ch.pdf CV (ch)])
-  - +research statement
 - Publications
   - +bib
   - +abstract
   - +funding
   - +EI/SCI
-  - +pdf
   - +CCF grade
   - +comments
-  - +WIP
+  - +PDF icon
 - jemdoc
   - [make](https://jemdoc.jaboc.net/stuff.html)
   - +chinese version

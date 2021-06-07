@@ -8,10 +8,10 @@ menu
     Contact             [contact.html]
 
 social
+   DBLP         [https://dblp.org/pid/80/11360.html]
    GitHub       [https://github.com/hengxin]
    Scholar      [https://scholar.google.com/citations?user=HK9-98EAAAAJ&hl=en]
-   DBLP         [https://dblp.org/pid/80/11360.html]
    ORCID        [https://orcid.org/0000-0002-0427-9710]
-   TIME         [https://github.com/hengxin/TIME-Things-Interested-Me-Ever]
+   # TIME         [https://github.com/hengxin/TIME-Things-Interested-Me-Ever]
 links
    Jemdoc   	[http://jemdoc.jaboc.net/]

@@ -36,7 +36,10 @@ with the Department of Computer Science and Technology at Nanjing University.
 . Manuel Bravo, Alexey Gotsman, Borja de Régil, and Hengfeng Wei.\n
 /UniStore: A Fault-tolerant Marriage of Causal and Strong Consistency/.\n
 The 2021 USENIX Annual Technical Conference (*USENIX ATC*), July, 2021.\n
-[papers/2021-ATC-Unistore.pdf \[PDF\]]; [papers/2021-ATC-Unistore-arXiv.pdf \[PDF (Extended Version)\]]
+[papers/2021-ATC-Unistore.pdf \[PDF\]];
+[papers/2021-ATC-Unistore-arXiv.pdf \[PDF (Extended Version)\]];
+[papers/2021-ATC-Unistore-Abstract.md \[Abstract\]];
+[papers/2021-ATC-Unistore-Fund.md \[Funding\]]
 . Xiaosong Gu, *Hengfeng Wei\**, Lei Qiao, Yu Huang.\n
 /Raft with Out-of-Order Executions (in Chinese)/.\n
 Journal of Software, accepted, 2021.\n
