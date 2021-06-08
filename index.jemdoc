@@ -42,12 +42,14 @@ The 2021 USENIX Annual Technical Conference (*USENIX ATC*), July, 2021.\n
 [papers/2021-ATC-Unistore-Fund.md \[Funding\]]
 . Xiaosong Gu, *Hengfeng Wei\**, Lei Qiao, Yu Huang.\n
 /Raft with Out-of-Order Executions (in Chinese)/.\n
-Journal of Software, accepted, 2021.\n
-[papers/2021-JOS-PRaft.pdf \[PDF\]]
+Journal of Software (*JOS*), accepted, 2021.\n
+[papers/2021-JOS-PRaft.pdf \[PDF\]];
+[https://www.bilibili.com/video/BV15K411V7KJ?share_source=copy_web \[Video at bilibili\]]
 . Hongrong Ouyang, *Hengfeng Wei\**, Yu Huang.\n
 /Checking Causal Consistency of MongoDB/.\n
 The 12th Asia-Pacific Symposium on Internetware (*Internetware 2020*), May 12-14. 2021.\n
-[papers/2021-Internetware-MongoDB.pdf \[PDF\]]
+[papers/2021-Internetware-MongoDB-CCC.pdf \[PDF\]];
+[https://www.bilibili.com/video/BV1dK4y197FS?share_source=copy_web \[Video at bilibili\]]
 . Lingzhi Ouyang, Yu Huang, Hengfeng Wei, Jian Lu.\n
 /Achieving Probabilistic Atomicity with Well-Bounded Staleness and Low Read Latency in Distributed Datastores/.\n
 IEEE Transactions on Parallel and Distributed Systems (*TPDS*), 32(4):815-829, Apr. 2021.
