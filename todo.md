@@ -10,6 +10,8 @@
   - +CCF grade
   - +comments
   - +PDF icon
+  - +video
+  - +code/github link
 - jemdoc
   - [make](https://jemdoc.jaboc.net/stuff.html)
   - +chinese version
