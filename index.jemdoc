@@ -32,6 +32,9 @@ with the Department of Computer Science and Technology at Nanjing University.
 ~~~
 === Recent Publications
 *(\*: Corresponding Author)*
+==== Work In Progress
+. /Verifying Transactional Protocols of MongoDB/. Sep., 2021.
+
 ==== 2021
 . Manuel Bravo, Alexey Gotsman, Borja de Régil, and Hengfeng Wei.\n
 /UniStore: A Fault-tolerant Marriage of Causal and Strong Consistency/.\n
@@ -42,7 +45,7 @@ The 2021 USENIX Annual Technical Conference (*USENIX ATC*), July, 2021.\n
 [papers/2021-ATC-Unistore-Fund.md \[Funding\]]
 . Xiaosong Gu, *Hengfeng Wei\**, Lei Qiao, Yu Huang.\n
 /Raft with Out-of-Order Executions (in Chinese)/.\n
-Journal of Software (*JOS*), accepted, 2021.\n
+Journal of Software (*JOS*), 32(6):1748-1778, 2021.\n
 [papers/2021-JOS-PRaft.pdf \[PDF\]];
 [https://www.bilibili.com/video/BV15K411V7KJ?share_source=copy_web \[Video at bilibili\]]
 . Hongrong Ouyang, *Hengfeng Wei\**, Yu Huang.\n
@@ -69,12 +72,12 @@ In the Proceeding of the ACM Symposium on Principles of Distributed Computing (*
 [papers/2020-PODC-FastAtomic.pdf \[PDF\]]
 . Xingchen Yi, *Hengfeng Wei\**, Yu Huang, Lei Qiao, Jian Lu.\n
 /TPaxos in PaxosStore: Derivation, Specification and Refinement (in Chinese)/.\n
-Journal of Software (*JOS*), 31(8), 2020.\n
+Journal of Software (*JOS*), 31(8):2336-2361, 2020.\n
 [papers/2020-JOS-TPaxos.pdf \[PDF\]];
 [https://www.bilibili.com/video/BV1hV411E7w6?share_source=copy_web \[Video at bilibili\]]
 . Ye Ji, *Hengfeng Wei\**, Yu Huang, Jian Lu.\n
 /Specifying and Verifying CRDT Protocols Using TLA+ (in Chinese)/.\n
-Journal of Software (*JOS*), 31(5), 2020.\n
+Journal of Software (*JOS*), 31(5):1332-1352, 2020.\n
 [papers/2020-JOS-CRDT.pdf \[PDF\]]
 
 \n
