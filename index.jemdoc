@@ -33,7 +33,8 @@ with the Department of Computer Science and Technology at Nanjing University.
 === Recent Publications
 *(\*: Corresponding Author)*
 ==== Work In Progress
-. /Verifying Transactional Protocols of MongoDB/. Sep., 2021.
+. /Byz-GentleRain: An Efficient Byzantine Fault-tolerant Causal Consistency Protocol/. 2021.
+. /Verifying Transactional Protocols of MongoDB/. 2021.
 
 ==== 2021
 . Manuel Bravo, Alexey Gotsman, Borja de Régil, and Hengfeng Wei.\n

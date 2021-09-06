@@ -1,26 +1,27 @@
 为了提高可扩展性, 分布式存储系统通常采用数据分区技术
 将数据划分成多个分区, 存储到不同的物理节点上。
-为了进一步提高容错性与系统性能, 它们又采用数据复制技术
+为了进一步提高容错性, 它们又采用数据复制技术
 将每个分区的数据以多副本的形式进行存储。
-在这种分区复制架构下, 要实现强
-Modern online services rely on data stores that replicate their
-data across geographically distributed data centers.
-Providing strong consistency in such data stores results in high latencies
-and makes the system vulnerable to network partitions.
-The alternative of relaxing consistency violates crucial correctness properties.
-A compromise is to allow multiple consistency levels to coexist
-in the data store.
-In this paper we present UniStore,
-the first fault-tolerant and scalable data store that
-combines causal and strong consistency.
-The key challenge we address in UniStore
-is to maintain liveness despite data center failures:
-this could be compromised if a strong transaction
-takes a dependency on a causal transaction
-that is later lost because of a failure.
-UniStore ensures that such situations do not arise
-while paying the cost of durability for causal transactions only when necessary.
-We evaluate UniStore on Amazon EC2
-using both microbenchmarks and a sample application.
-Our results show that UniStore effectively and scalably
-combines causal and strong consistency.
+在这种分区复制架构下, 要实现强数据一致性通常会导致较高的访问延迟。
+而且在出现网络分区的情况下, 还会降低系统的可用性。
+然而, 放松对数据一致性的要求又会破坏对上层应用至关重要的正确性标准。
+一种折中的方案便是允许多种数据一致性共存于同一个系统中。
+在本工作中, 我们实现了第一个可扩展的、容错的且融合了因果一致性与强一致性的
+分布式事务型存储系统, 称为 UniStore。
+在设计方面, UniStore 的关键挑战是如何在部分数据中心可能失效的情况下
+仍然保证系统的整体活性 (liveness)。
+尤其是当强一致性事务依赖于因果一致性事务时,
+如果因果一致性事务由于数据中心失效而丢失,
+强一致性事务将无法被提交, 破坏系统的活性。
+UniStore 使用 Uniformity 机制避免了这种情况:
+在强一致性事务提交之前, 它所依赖的所有因果一致性事务都必须是 Uniform 的,
+也就是说, 这些因果一致性事务最终在所有正确的数据中心上都是可见的。
+在此基础上, 为了尽可能降低 Uniformity 机制带来的等待延迟,
+UniStore 允许因果一致性事务在不破坏因果一致性的前提下读取稍旧的快照数据,
+因此, 强一致性事务在提交时, 它所依赖的因果一致性事务很可能已经是 Uniform 的了。
+
+我们在 Amazon EC2 上部署了 UniStore 系统,
+并使用 microbenchmark 与 RUBiS benchmark 对其进行评估。
+实验表明, UniStore 具有良好的接近线性的可扩展性。
+在 RUBiS benchmark 下, 因果一致性事务的平均延迟约为 1.2ms。
+与强一致性系统相比, UniStore 系统整体的平均延迟可降低约 3.7 倍。
