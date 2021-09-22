@@ -33,10 +33,12 @@ with the Department of Computer Science and Technology at Nanjing University.
 === Recent Publications
 *(\*: Corresponding Author)*
 ==== Work In Progress
-. /Byz-GentleRain: An Efficient Byzantine Fault-tolerant Causal Consistency Protocol/. 2021.
 . /Verifying Transactional Protocols of MongoDB/. 2021.
 
 ==== 2021
+. Kaile Huang, *Hengfeng Wei\**, Yu Huang, Haixiang Li, and Anqun Pan.\n
+/Brief Announcement: Byz-GentleRain: An Efficient Byzantine Fault-tolerant Causal Consistency Protocol/.\n
+The 23rd International Symposium on Stabilization, Safety, and Security of Distributed Systems (*SSS*), Nov, 2021. Accepted (Brief Announcement) \n
 . Manuel Bravo, Alexey Gotsman, Borja de Régil, and Hengfeng Wei.\n
 /UniStore: A Fault-tolerant Marriage of Causal and Strong Consistency/.\n
 The 2021 USENIX Annual Technical Conference (*USENIX ATC*), July, 2021.\n
