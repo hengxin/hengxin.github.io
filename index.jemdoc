@@ -61,7 +61,10 @@ The 12th Asia-Pacific Symposium on Internetware (*Internetware*), May 12-14. 202
 [https://www.bilibili.com/video/BV1dK4y197FS?share_source=copy_web \[Video at bilibili\]]
 . Lingzhi Ouyang, Yu Huang, Hengfeng Wei, Jian Lu.\n
 /Achieving Probabilistic Atomicity with Well-Bounded Staleness and Low Read Latency in Distributed Datastores/.\n
-IEEE Transactions on Parallel and Distributed Systems (*TPDS*), 32(4):815-829, Apr. 2021.
+IEEE Transactions on Parallel and Distributed Systems (*TPDS*), 32(4):815-829, Apr. 2021.\n
+[papers/2021-TPDS-ASC.pdf \[PDF\]];
+[papers/2021-TPDS-ASC-Abstract.md \[PDF\]];
+[papers/2021-TPDS-ASC-Fund.md \[PDF\]];
 
 ==== 2020
 . *Hengfeng Wei*, Ruize Tang, Yu Huang, Jian Lu.\n
