@@ -39,6 +39,9 @@ with the Department of Computer Science and Technology at Nanjing University.
 . Kaile Huang, *Hengfeng Wei\**, Yu Huang, Haixiang Li, and Anqun Pan.\n
 /Brief Announcement: Byz-GentleRain: An Efficient Byzantine Fault-tolerant Causal Consistency Protocol/.\n
 The 23rd International Symposium on Stabilization, Safety, and Security of Distributed Systems (*SSS*), Nov, 2021. Accepted (Brief Announcement) \n
+[papers/2021-SSS-BA-ByzGentleRain.pdf \[PDF\]];
+[papers/2021-SSS-BA-ByzGentleRain-Abstract.md \[Abstract\]];
+[papers/2021-SSS-BA-ByzGentleRain-Fund.md \[Funding\]]
 . Manuel Bravo, Alexey Gotsman, Borja de Régil, and *Hengfeng Wei*.\n
 /UniStore: A Fault-tolerant Marriage of Causal and Strong Consistency/.\n
 The 2021 USENIX Annual Technical Conference (*USENIX ATC*), July, 2021.\n
