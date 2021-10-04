@@ -44,7 +44,7 @@ The 23rd International Symposium on Stabilization, Safety, and Security of Distr
 [papers/2021-SSS-BA-ByzGentleRain-Fund.md \[Funding\]]
 . Yuqi Zhang, *Hengfeng Wei\**, and Yu Huang\*.\n
 /Remove-Win: a Design Framework for Conflict-free Replicated Data Types/.\n
-The IEEE International Conference on Parallel and Distributed Systems (*ICPADS*), 2021. Accepted.\n
+The 27th IEEE International Conference on Parallel and Distributed Systems (*ICPADS*), 2021. Accepted.\n
 [https://github.com/elem-azar-unis/CRDT-Redis/blob/master/document/rwf-tr.pdf \[PDF (Extended Version)]]
 . Manuel Bravo, Alexey Gotsman, Borja de Régil, and *Hengfeng Wei*.\n
 /UniStore: A Fault-tolerant Marriage of Causal and Strong Consistency/.\n
