@@ -1,7 +1,7 @@
 # jemdoc: menu{MENU}{enrollment.html}
 ==Hengfeng Wei (魏恒峰)
 
-欢迎*本科生/研究生*与我联系。\n
+欢迎感兴趣的*本科生/研究生*与我联系。\n
 
 ~~~
 {}{img_left}{figs/hfwei-mail.png}{hfwei}{120}{30}{https://software.nju.edu.cn/szll/szdw/index.html}\n
@@ -14,8 +14,6 @@
 - Formal Methods (TLA+\/TLAPS; SAT\/SMT) (形式化方法)
 
 == 项目课题
-
-=== 分布式计算
 - [https://lamport.azurewebsites.net/tla/tla.html TLA+/TLC] 工具功能扩展开发
   -- 内容: 可视化、动画、调试工具等
 - [https://www.mongodb.com/2 MongoDB] 数据库测试与应用开发
