@@ -34,16 +34,18 @@ with the Department of Computer Science and Technology at Nanjing University.
 ==== Work In Progress
 . /Verifying Transactional Protocols of MongoDB/. 2022.
 . /Light-Weight Transactions in Cassandra/. 2022.
+. /DistAI in TLA+/TLAPS/. 2023.
 
 *(\*: Corresponding Author)*
 
 ==== 2022
-
-==== 2021
 . Hongrong Ouyang, *Hengfeng Wei\**, Yu Huang, Haixiang Li\*, Anqun Pan.\n
 /Checking Causal Consistency of MongoDB/.\n
-Journal of Computer Science and Technology (*JCST*), 36(6):-, Nov. 2021.\n
-[papers/2021-JCST-MongoDB-CCC.pdf \[PDF (proofread) \]] (Journal version of the Internetware'2020/2021 paper)
+Journal of Computer Science and Technology (*JCST*), 37(1):128-146, Nov. 2022.\n
+[papers/2022-JCST-MongoDB-CCC.pdf \[PDF\]] (Journal version of the Internetware'2020/2021 paper);
+[papers/2022-JCST-MongoDB-CCC-Abstract.md \[Abstract\]];
+[papers/2022-JCST-MongoDB-CCC-Fund.md \[Funding\]]
+==== 2021
 . Kaile Huang, *Hengfeng Wei\**, Yu Huang, Haixiang Li, Anqun Pan.\n
 /Brief Announcement: Byz-GentleRain: An Efficient Byzantine Fault-tolerant Causal Consistency Protocol/.\n
 The 23rd International Symposium on Stabilization, Safety, and Security of Distributed Systems (*SSS*), Nov, 2021.\n
@@ -53,7 +55,7 @@ The 23rd International Symposium on Stabilization, Safety, and Security of Distr
 . Yuqi Zhang, *Hengfeng Wei\**, Yu Huang\*.\n
 /Remove-Win: a Design Framework for Conflict-free Replicated Data Types/.\n
 The 27th IEEE International Conference on Parallel and Distributed Systems (*ICPADS*), 2021.\n
-[https://github.com/elem-azar-unis/CRDT-Redis/blob/master/document/rwf-tr.pdf \[PDF (Extended Version)]]
+[https://github.com/elem-azar-unis/CRDT-Redis/blob/master/document/rwf-tr.pdf \[PDF (Extended Version)\]]
 . Manuel Bravo, Alexey Gotsman, Borja de Régil, *Hengfeng Wei*.\n
 /UniStore: A Fault-tolerant Marriage of Causal and Strong Consistency/.\n
 The 2021 USENIX Annual Technical Conference (*USENIX ATC*), July, 2021.\n
