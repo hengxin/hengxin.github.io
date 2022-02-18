@@ -32,7 +32,7 @@ with the Department of Computer Science and Technology at Nanjing University.
 ~~~
 === Recent Publications
 ==== Work In Progress
-. /Verifying Transactional Protocols of MongoDB/. 2022.
+. /Verifying Transactional Protocols of MongoDB/. 2022. [https://arxiv.org/abs/2111.14946 \[arXiv Version\]]
 . /Light-Weight Transactions in Cassandra/. 2022.
 . /DistAI in TLA+/TLAPS/. 2023.
 
