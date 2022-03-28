@@ -2,6 +2,28 @@
 ==Hengfeng Wei (魏恒峰)
 
 ~~~
-== Writing
+== Formal Methods
+- [https://github.com/hengxin/tlaplus-at-nju-disalg/blob/master/roadmap.md TLA+]
+- [https://github.com/hengxin/sat-smt-satisfying/blob/master/seminar/SAT/Resources.md SAT]
+- SMT (TBD)
+~~~
+
+~~~
+== Distributed Computing and Distributed Systems
+- [https://www.bilibili.com/video/BV17A411W7Cr?share_source=copy_web DDIA by Martin Kleppmann]
+- [https://www.bilibili.com/video/BV16j411f7F4?share_source=copy_web MIT 6.824]
+~~~
+
+~~~
+== Databases
+- [https://www.bilibili.com/video/BV1qf4y1J7mX?share_source=copy_web CMU 14-455]
+- [https://github.com/hengxin/mongodb-tcc/tree/main/refs MongoDB]
+- [https://github.com/hengxin/awesome-dbs/tree/master/TiDB TiDB]
+~~~
+
+~~~
+== Scientific Writing
+- [https://www.bilibili.com/video/BV1a54y1e7BX?share_source=copy_web PhD: How to Write a Great Research Paper]
+- [https://www.bilibili.com/video/BV1tb411x7Gq?share_source=copy_web The Craft of Writing Effectively]
 - [https://www.bilibili.com/video/BV1zv41177JQ?p=4&share_source=copy_web Writing in the Science @ Stanford]
 ~~~

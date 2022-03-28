@@ -8,21 +8,22 @@
 ~~~
 
 ~~~
-== 科研课题
+== 科研课题 (Learn on [ocw.html ocw])
+
 - Distributed Transactions (分布式事务)
 - Distributed Consensus (分布式共识问题)
 - Formal Methods (TLA+\/TLAPS; SAT\/SMT) (形式化方法)
 
 == 项目课题
+- [http://jepsen.io/ Jepsen] 分布式系统测试框架移植与扩展
+  -- [https://github.com/hengxin/jepsen-in-cpp jepsen-in-cpp] [https://github.com/hengxin/jepsen-in-java jepsen-in-java] [https://github.com/hengxin/jepsen-in-python jepsen-in-java]
+- Hackathon 赛事
+  -- [https://www.mongodb.com/ MongoDB] [https://mongoing.com/archives/25744 Hackathon]
+  -- [https://pingcap.com/ TiDB] [https://zhuanlan.zhihu.com/p/345523553 Hackathon]
+  -- [https://redislabs.com/ RedisLab] [https://redislabs.com/hackathon-2021/ Hackathon]
 - [https://lamport.azurewebsites.net/tla/tla.html TLA+/TLC] 工具功能扩展开发
   -- 内容: 可视化、动画、调试工具等
-- [https://www.mongodb.com/2 MongoDB] 数据库测试与应用开发
-  -- 以参加 [https://mongoing.com/archives/25744 MongoDB Hackathon] 等类似赛事为激励目标
-- [https://pingcap.com/ TiDB] 数据库第三方工具开发
-  -- 以参加 [https://zhuanlan.zhihu.com/p/345523553 TiDB Hackathon] 等类似赛事为激励目标
-- [https://redislabs.com/ RedisLab] 数据库应用开发
-  -- 以参加 [https://redislabs.com/hackathon-2021/ Build on Redis Hackathon] 等类似赛事为激励目标
-  -- 参考: [https://redislabs.com/blog/build-on-redis-hackathon-winners/?utm_medium=email&utm_source=marketo&utm_campaign=Hackathon_announcement_email_6.15&mkt_tok=OTE1LU5GRC0xMjgAAAF9r9sl2wHHfc4t_QrX_x6lpwZOH2FNJgSbQFUlcrD-BkKmF76VDfHi2w0tzuHuATncq6qp0mGnsboG136owj5YDD4NElOrDNaLY1WdZ3zEg1EE Hackathon 2021]
+
 == [https://github.com/hengxin/nju-thesis 毕业设计]
 - [docs/projects.pdf 毕业设计选题]
 ~~~
