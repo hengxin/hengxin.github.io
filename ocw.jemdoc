@@ -16,7 +16,8 @@
 
 ~~~
 == Databases
-- [https://www.bilibili.com/video/BV1qf4y1J7mX?share_source=copy_web CMU 14-455]
+- [https://www.bilibili.com/video/BV1qf4y1J7mX?share_source=copy_web CMU 14-455: Intro. to Database Systems]
+- [https://www.bilibili.com/video/BV1wv411w7Ko?share_source=copy_web CMU 15-721: Advanced Database Systems]
 - [https://github.com/hengxin/mongodb-tcc/tree/main/refs MongoDB]
 - [https://github.com/hengxin/awesome-dbs/tree/master/TiDB TiDB]
 ~~~
@@ -27,4 +28,14 @@
 - [https://terrytao.wordpress.com/advice-on-writing-papers/ "On Writing" by Terence Tao]
 - [https://www.bilibili.com/video/BV1tb411x7Gq?share_source=copy_web The Craft of Writing Effectively]
 - [https://www.bilibili.com/video/BV1zv41177JQ?p=4&share_source=copy_web Writing in the Science @ Stanford]
+~~~
+
+~~~
+== Tools
+- [https://tobi.oetiker.ch/lshort/lshort.pdf LaTeX: A Document Preparation System]
+- [https://www.ctan.org/pkg/pgf?lang=en TikZ: Create Graphics Programmatically]
+- [https://ctan.org/pkg/pgfplots PGFPlots: Create Plots Programmatically]
+- [https://www.bilibili.com/video/BV1W4411Z7Zt?share_source=copy_web Manim: Animation Engine for Explanatory Math Videos]
+- [https://github.com/remotion-dev/remotion remotion: Create Videos Programmatically in React]
+- [https://github.com/slidevjs/slidev slidev: Presentation Slides for Developers]
 ~~~
