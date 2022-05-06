@@ -1,19 +1,23 @@
 # jemdoc: menu{MENU}{teaching.html}
 ==Hengfeng Wei (魏恒峰)
 
-/@software.nju.edu.cn/ 的课程长期招聘助教, 欢迎本科生或研究生与我联系。
+/@software.nju.edu.cn/ 的课程长期招聘助教, 欢迎本科生或研究生[contact.html 与我联系]。
 
 ~~~
 === [https://github.com/courses-at-nju-by-hfwei Teaching]
-- [https://github.com/orgs/courses-at-nju-by-hfwei/teams/c-pl-at-nju-software/repositories *The C Programming Language*] (/@software.nju.edu.cn/)
-  -- 2021 Fall
+- [https://github.com/orgs/courses-at-nju-by-hfwei/teams/c-pl-at-nju-software/repositories *CPL: The C Programming Language*] (/@software.nju.edu.cn/)
+  -- 2021 Fall~~\[[https://github.com/courses-at-nju-by-hfwei/c-pl-lectures Lectures]\] ~ \[[ OJ (Private)]\] ~ \[[https://space.bilibili.com/479141149/channel/seriesdetail?sid=490580 Videos]\] ~ \[[https://github.com/courses-at-nju-by-hfwei/c-pl-resources Resources]\]
+  -- 2022 Fall (Stay Tuned)
 - [https://github.com/orgs/courses-at-nju-by-hfwei/teams/discrete-math-at-nju-software/repositories *Discrete Mathematics*] (/@software.nju.edu.cn/)
-  -- 2021 Spring (TAs: [pyf@smail.nju.edu.cn 裴一凡] [https://github.com/RosalieMiao 戴若石] [https://github.com/Rivers-Shall 肖江])
+  -- 2021 Spring~~\[[https://github.com/courses-at-nju-by-hfwei/discrete-math-lectures Lectures]\] ~ \[[https://github.com/courses-at-nju-by-hfwei/discrete-math-problem-sets Problem Set]\] ~ \[[https://space.bilibili.com/479141149/channel/collectiondetail?sid=154382 Videos]\] ~\[[https://github.com/courses-at-nju-by-hfwei/discrete-math-resources Resources]\]
 - [https://github.com/orgs/courses-at-nju-by-hfwei/teams/compilers-course-at-nju-software/repositories *Compilers*] (/@software.nju.edu.cn/)
-  -- 2020 Fall~~\[[https://github.com/courses-at-nju-by-hfwei/compilers-lectures Lectures]\] ~ \[[http://problemoverflow.cn/compilers/ Labs]\]
-  -- 2021 Fall~~\[[https://github.com/courses-at-nju-by-hfwei/compilers-lectures Lectures]\] ~ \[[ Labs]\]
+  -- 2020 Fall~~\[[https://github.com/courses-at-nju-by-hfwei/compilers-lectures/tree/master/2020 Lectures]\] ~ \[[https://github.com/courses-at-nju-by-hfwei/compilers-problem-set/tree/master/2020 Problem Set]\] ~ \[[https://github.com/courses-at-nju-by-hfwei/compilers-lab/tree/main/2020-fall Labs (Private)]\]
+  -- 2021 Fall~~\[[https://github.com/courses-at-nju-by-hfwei/compilers-lectures/tree/master/2021 Lectures]\] ~ \[[https://github.com/courses-at-nju-by-hfwei/compilers-problem-set/tree/master/2021 Problem Set]\] ~ \[[https://github.com/courses-at-nju-by-hfwei/compilers-labs-antlr Labs]\] ~\[[https://github.com/courses-at-nju-by-hfwei/compilers-lab/tree/main/2021-fall Labs (Private)]\] ~ \[[https://space.bilibili.com/479141149/channel/seriesdetail?sid=490581 Videos]\] \[[https://github.com/courses-at-nju-by-hfwei/compilers-resources Resources]\]
+  -- 2022 Fall (Stay Tuned)
+  -- 2023 Spring (Stay Tuned)
 - [http://cslabcms.nju.edu.cn/problem_solving/ *Problem Solving*] (/@cs.nju.edu.cn/)
   -- 2017 Spring (IV)
   -- 2017 Fall (I), 2018 Spring (II), 2018 Fall (III), 2019 Spring (IV)
   -- 2019 Fall (I), 2020 Spring (II)
+  -- \[[https://github.com/courses-at-nju-by-hfwei/problem-solving-class-lectures Lectures]\] ~ \[[https://github.com/courses-at-nju-by-hfwei/problem-solving-class-problems Problem Set]\] ~\[[https://github.com/courses-at-nju-by-hfwei/problem-solving-class-tutorial Tutorials]\] ~ \[[https://github.com/courses-at-nju-by-hfwei/problem-solving-class-coq Coq]\]
 ~~~

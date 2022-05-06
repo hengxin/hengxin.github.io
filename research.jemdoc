@@ -8,4 +8,6 @@
   -- Distributed Transactions
   -- Consensus Protocols
 - Formal Methods
+  -- TLA+/TLAPS
+  -- SAT/SMT
 ~~~
