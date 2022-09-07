@@ -6,6 +6,7 @@
 - [https://github.com/hengxin/tlaplus-at-nju-disalg/blob/master/roadmap.md TLA+]
 - [https://github.com/hengxin/sat-smt-satisfying/blob/master/seminar/SAT/Resources.md SAT]
 - SMT (TBD)
+- Isabelle/HOL (TBD)
 - Coq (TBD)
 ~~~
 
@@ -13,19 +14,29 @@
 == Distributed Computing and Distributed Systems
 - [https://www.bilibili.com/video/BV17A411W7Cr?share_source=copy_web DDIA by Martin Kleppmann]
 - [https://www.bilibili.com/video/BV16j411f7F4?share_source=copy_web MIT 6.824]
+- [https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/final-printversion-10-5-14.pdf Principles of
+Eventual Consistency by Sebastian Burckhardt]
+- [http://cs-www.cs.yale.edu/homes/aspnes/classes/465/notes.pdf Notes on Theory of Distributed Systems by James Aspnes]
 ~~~
 
 ~~~
 == Databases
 - [https://www.bilibili.com/video/BV1qf4y1J7mX?share_source=copy_web CMU 14-455: Intro. to Database Systems]
 - [https://www.bilibili.com/video/BV1wv411w7Ko?share_source=copy_web CMU 15-721: Advanced Database Systems]
-- [https://github.com/hengxin/mongodb-tcc/tree/main/refs MongoDB]
-- [https://github.com/hengxin/awesome-dbs/tree/master/TiDB TiDB]
+- [https://github.com/hengxin/awesome-dbs awesome-dbs @ GitHub]
+~~~
+
+~~~
+== Paper Reading and Presentation
+- [https://people.csail.mit.edu/alizadeh/courses/6.888/papers/howtoread.pdf How to Read a Paper (by S. Keshav)]
+- [http://lamport.azurewebsites.net/pubs/howto.txt HOW TO PRESENT A PAPER (by Leslie Lamport)]
+- Paper Notes
+- Bibliography (TBD)
 ~~~
 
 ~~~
 == Scientific Writing
-- [https://www.bilibili.com/video/BV1a54y1e7BX?share_source=copy_web PhD: How to Write a Great Research Paper]
+- [https://www.bilibili.com/video/BV1PS4y167if?share_source=copy_web How to Write a Great Research Paper]
 - [https://terrytao.wordpress.com/advice-on-writing-papers/ "On Writing" by Terence Tao]
 - [https://www.bilibili.com/video/BV1tb411x7Gq?share_source=copy_web The Craft of Writing Effectively]
 - [https://www.bilibili.com/video/BV1zv41177JQ?p=4&share_source=copy_web Writing in the Science @ Stanford]
@@ -36,6 +47,7 @@
 - [https://tobi.oetiker.ch/lshort/lshort.pdf LaTeX: A Document Preparation System]
 - [https://www.ctan.org/pkg/pgf?lang=en TikZ: Create Graphics Programmatically]
 - [https://ctan.org/pkg/pgfplots PGFPlots: Create Plots Programmatically]
+- [https://ctan.org/pkg/beamer?lang=en Beamer: Presentations with LaTeX]
 - [https://www.bilibili.com/video/BV1W4411Z7Zt?share_source=copy_web Manim: Animation Engine for Explanatory Math Videos]
 - [https://github.com/remotion-dev/remotion remotion: Create Videos Programmatically in React]
 - [https://github.com/slidevjs/slidev slidev: Presentation Slides for Developers]
