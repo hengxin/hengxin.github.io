@@ -6,6 +6,7 @@
 - [https://github.com/hengxin/tlaplus-at-nju-disalg/blob/master/roadmap.md TLA+]
 - [https://github.com/hengxin/sat-smt-satisfying/blob/master/seminar/SAT/Resources.md SAT]
 - SMT (TBD)
+- [https://www.bilibili.com/video/BV1a4411d7k5?share_source=copy_web&vd_source=afddc1f6e07c3046ed07519aa34370fd Model Checking]
 - Isabelle/HOL (TBD)
 - Coq (TBD)
 ~~~
@@ -47,10 +48,12 @@ Eventual Consistency by Sebastian Burckhardt]
 - [https://tobi.oetiker.ch/lshort/lshort.pdf LaTeX: A Document Preparation System]
 - [https://www.ctan.org/pkg/pgf?lang=en TikZ: Create Graphics Programmatically]
 - [https://ctan.org/pkg/pgfplots PGFPlots: Create Plots Programmatically]
-- [https://ctan.org/pkg/beamer?lang=en Beamer: Presentations with LaTeX]
 - [https://www.bilibili.com/video/BV1W4411Z7Zt?share_source=copy_web Manim: Animation Engine for Explanatory Math Videos]
 - [https://github.com/remotion-dev/remotion remotion: Create Videos Programmatically in React]
+- [https://ctan.org/pkg/beamer?lang=en Beamer: Presentations with LaTeX]
+- [https://marp.app/ Marp: Markdown Presentation Ecosystem]
 - [https://github.com/slidevjs/slidev slidev: Presentation Slides for Developers]
+- [https://github.com/gnab/remark remark: A Simple, In-browser, Markdown-driven Slideshow Tool]
 - [https://www.vim.org/ Vim: The Ubiquitous Text Editor]
 - [https://www.wolfram.com/mathematica/ Wolfram Mathematica: Modern Technical Computing]
 ~~~
