@@ -33,15 +33,21 @@ with the Department of Computer Science and Technology at Nanjing University.
 === Recent Publications
 ==== Work In Progress
 . /Verifying Transactional Protocols of MongoDB/. 2022. [https://arxiv.org/abs/2111.14946 \[arXiv Version\]]
-. /Light-Weight Transactions in Cassandra/. 2022.
-. /DistAI in TLA+/TLAPS/. 2023.
+. /Efficient Black-box Checking of Snapshot Isolation in Databases/. 2023.
+. /DistAI in TLA+/. 2023.
 
 *(\*: Corresponding Author)*
 
 ==== 2022
+. Xue Jiang, *Hengfeng Wei\**, Yu Huang.\n
+/Tunable Causal Consistency: Specification and Implementation/.\n
+The 28th IEEE International Conference on Parallel and Distributed Systems (*ICPADS*), Jan., 2023.\n
+. Yi Huang, *Hengfeng Wei*.\n
+/Incremental Causal Consistency Checking for Read-Write Memory Histories/.\n
+The 13th Asia-Pacific Symposium on Internetware (*Internetware*), June 11-12, 2022.\n
 . Hongrong Ouyang, *Hengfeng Wei\**, Yu Huang, Haixiang Li\*, Anqun Pan.\n
 /Checking Causal Consistency of MongoDB/.\n
-Journal of Computer Science and Technology (*JCST*), 37(1):128-146, Nov. 2022.\n
+Journal of Computer Science and Technology (*JCST*), 37(1):128-146, Jan., 2022.\n
 [papers/2022-JCST-MongoDB-CCC.pdf \[PDF\]] (Journal version of the Internetware'2020/2021 paper);
 [papers/2022-JCST-MongoDB-CCC-Abstract.md \[Abstract\]];
 [papers/2022-JCST-MongoDB-CCC-Fund.md \[Funding\]]
