@@ -4,7 +4,21 @@
 ~~~
 *(\*: Corresponding Author)*
 
+==== 2023
+. Kaile Huang, Si Liu, Zhenge Chen, *Hengfeng Wei\**, David Basin, Haixiang Li, Anqun Pan.\n
+/Efficient Black-box Checking of Snapshot Isolation in Databases/.\n
+PVLDB 2023 (Accepted).\n
+[https://arxiv.org/abs/2301.07313 \[arXiv Version\]]
+[papers/2023-PVLDB-PolySI-Abstract.md \[Abstract\]];
+[papers/2023-PVLDB-PolySI-Fund.md \[Funding\]]
+
 ==== 2022
+. Xue Jiang, *Hengfeng Wei\**, Yu Huang.\n
+/Tunable Causal Consistency: Specification and Implementation/.\n
+The 28th IEEE International Conference on Parallel and Distributed Systems (*ICPADS*), Jan. 2023.\n
+. Yi Huang, *Hengfeng Wei*.\n
+/Incremental Causal Consistency Checking for Read-Write Memory Histories/.\n
+The 13th Asia-Pacific Symposium on Internetware (*Internetware*), June 11-12, 2022.\n
 . Hongrong Ouyang, *Hengfeng Wei\**, Yu Huang, Haixiang Li\*, Anqun Pan.\n
 /Checking Causal Consistency of MongoDB/.\n
 Journal of Computer Science and Technology (*JCST*), 37(1):128-146, Jan. 2022.\n
@@ -70,10 +84,34 @@ Journal of Software (*JOS*), 31(8):2336-2361, 2020.\n
 Journal of Software (*JOS*), 31(5):1332-1352, 2020.\n
 [papers/2020-JOS-CRDT.pdf \[PDF\]]
 
-(*TBC*)
-==== 2019
-
 ==== 2018
+. Hengfeng Wei, Yu Huang, and Jian Lu.\n
+/Specification and Implementation of Replicated List: the Jupiter Protocol Revisited/.\n
+The 22nd International Conference on Principles of Distributed Systems (*OPODIS*), 2018, 12:1–12:16.\n
+[papers/2018-OPODIS-Jupiter.pdf \[PDF\]]
+. Hengfeng Wei, Yu Huang, and Jian Lu.\n
+/Brief Announcement: Specification and Implementation of Replicated List: the Jupiter Protocol Revisited/.\n
+Proceedings of the 2018 ACM Symposium on Principles of Distributed Computing (*PODC*), 2018, pp. 81–83.\n
 
 ==== 2017
+. Hengfeng Wei, Yu Huang, and Jian Lu.\n
+/Probabilistically-Atomic 2-Atomicity: Enabling Almost Strong Consistency in Distributed Storage Systems/.\n
+IEEE Trans. Comput. (*TC*), 66(3), Mar. 2017, pp. 502–514.\n
+[papers/2017-TC-PA2AM.pdf \[PDF\]]
+. Hengfeng Wei, Yu Huang, and Jian Lu.\n
+/Parameterized and Runtime-Tunable Snapshot Isolation in Distributed Transactional Key-Value Stores/.\n
+The IEEE 36th Symposium on Reliable Distributed Systems (*SRDS*), Sept. 2017, pp. 21–33.\n
+[papers/2017-SRDS-RVSI.pdf \[PDF\]]
+
+==== 2016
+. Hengfeng Wei, Marzio De Biasi, Yu Huang, Jiannong Cao, and Jian Lu.\n
+/Verifying Pipelined-RAM Consistency over Read/Write Traces of Data Replicas/.\n
+IEEE Trans. Parallel Distrib. Syst. (*TPDS*), 27(5), May 2016, pp. 1511–1523.\n
+[papers/2016-TPDS-VPC.pdf \[PDF\]]
+
+==== 2012
+. Hengfeng Wei, Yu Huang, Jiannong Cao, Xiaoxing Ma, and Jian Lu.\n
+/Formal Specification and Runtime Detection of Temporal Properties for Asynchronous Context/.\n
+Proceedings of the 10th IEEE International Conference on Pervasive Computing and Communications (*PerCom*), 2012, pp. 30–38.\n
+[papers/2012-PerCom-CTL3.pdf \[PDF\]]
 ~~~

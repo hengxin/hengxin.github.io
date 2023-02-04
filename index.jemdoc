@@ -30,21 +30,22 @@ with the Department of Computer Science and Technology at Nanjing University.
 ~~~
 
 ~~~
-=== Recent Publications
+=== Selected Recent Publications
 ==== Work In Progress
-. /Verifying Transactional Protocols of MongoDB/. 2022. [https://arxiv.org/abs/2111.14946 \[arXiv Version\]]
-. /Efficient Black-box Checking of Snapshot Isolation in Databases/. 2023.
-. /DistAI in TLA+/. 2023.
+. /Verifying Transactional Protocols of MongoDB/. [https://arxiv.org/abs/2111.14946 \[arXiv Version\]]
+. /A Generic Specification Framework for Weakly Consistent Replicated Data Types/. (Journal version of SRDS'2020)
 
 *(\*: Corresponding Author)*
 
+==== 2023
+. Kaile Huang, Si Liu, Zhenge Chen, *Hengfeng Wei\**, David Basin, Haixiang Li, Anqun Pan.\n
+/Efficient Black-box Checking of Snapshot Isolation in Databases/.\n
+PVLDB 2023 (Accepted).\n
+[https://arxiv.org/abs/2301.07313 \[arXiv Version\]]
+[papers/2023-PVLDB-PolySI-Abstract.md \[Abstract\]];
+[papers/2023-PVLDB-PolySI-Fund.md \[Funding\]]
+
 ==== 2022
-. Xue Jiang, *Hengfeng Wei\**, Yu Huang.\n
-/Tunable Causal Consistency: Specification and Implementation/.\n
-The 28th IEEE International Conference on Parallel and Distributed Systems (*ICPADS*), Jan. 2023.\n
-. Yi Huang, *Hengfeng Wei*.\n
-/Incremental Causal Consistency Checking for Read-Write Memory Histories/.\n
-The 13th Asia-Pacific Symposium on Internetware (*Internetware*), June 11-12, 2022.\n
 . Hongrong Ouyang, *Hengfeng Wei\**, Yu Huang, Haixiang Li\*, Anqun Pan.\n
 /Checking Causal Consistency of MongoDB/.\n
 Journal of Computer Science and Technology (*JCST*), 37(1):128-146, Jan. 2022.\n
@@ -52,12 +53,6 @@ Journal of Computer Science and Technology (*JCST*), 37(1):128-146, Jan. 2022.\n
 [papers/2022-JCST-MongoDB-CCC-Abstract.md \[Abstract\]];
 [papers/2022-JCST-MongoDB-CCC-Fund.md \[Funding\]]
 ==== 2021
-. Kaile Huang, *Hengfeng Wei\**, Yu Huang, Haixiang Li, Anqun Pan.\n
-/Brief Announcement: Byz-GentleRain: An Efficient Byzantine Fault-tolerant Causal Consistency Protocol/.\n
-The 23rd International Symposium on Stabilization, Safety, and Security of Distributed Systems (*SSS*), Nov, 2021.\n
-[papers/2021-SSS-BA-ByzGentleRain.pdf \[PDF\]];
-[papers/2021-SSS-BA-ByzGentleRain-Abstract.md \[Abstract\]];
-[papers/2021-SSS-BA-ByzGentleRain-Fund.md \[Funding\]]
 . Yuqi Zhang, *Hengfeng Wei\**, Yu Huang\*.\n
 /Remove-Win: a Design Framework for Conflict-free Replicated Data Types/.\n
 The 27th IEEE International Conference on Parallel and Distributed Systems (*ICPADS*), 2021.\n
