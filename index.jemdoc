@@ -40,7 +40,7 @@ with the Department of Computer Science and Technology at Nanjing University.
 ==== 2023
 . Kaile Huang, Si Liu, Zhenge Chen, *Hengfeng Wei\**, David Basin, Haixiang Li, Anqun Pan.\n
 /Efficient Black-box Checking of Snapshot Isolation in Databases/.\n
-PVLDB 2023 (Accepted).\n
+(*PVLDB 2023*) (Accepted).\n
 [https://arxiv.org/abs/2301.07313 \[arXiv Version\]]
 [papers/2023-PVLDB-PolySI-Abstract.md \[Abstract\]];
 [papers/2023-PVLDB-PolySI-Fund.md \[Funding\]]
