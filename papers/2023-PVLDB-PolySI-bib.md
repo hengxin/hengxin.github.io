@@ -1,0 +1,16 @@
+@article{PolySI:PVLDB2023,
+  author = {Huang, Kaile and Liu, Si and Chen, Zhenge and Wei, Hengfeng and Basin, David and Li, Haixiang and Pan, Anqun},
+  title = {Efficient Black-Box Checking of Snapshot Isolation in Databases},
+  year = {2023},
+  issue_date = {February 2023},
+  publisher = {VLDB Endowment},
+  volume = {16},
+  number = {6},
+  issn = {2150-8097},
+  url = {https://doi.org/10.14778/3583140.3583145},
+  doi = {10.14778/3583140.3583145},
+  journal = {Proc. VLDB Endow.},
+  month = {apr},
+  pages = {1264–1276},
+  numpages = {13}
+}

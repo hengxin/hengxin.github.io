@@ -7,10 +7,13 @@
 ==== 2023
 . Kaile Huang, Si Liu, Zhenge Chen, *Hengfeng Wei\**, David Basin, Haixiang Li, Anqun Pan.\n
 /Efficient Black-box Checking of Snapshot Isolation in Databases/.\n
-PVLDB 2023 (Accepted).\n
-[https://arxiv.org/abs/2301.07313 \[arXiv Version\]]
+Proc. VLDB Endow. 16, 6 (February 2023), 1264–1276.\n
+[papers/2023-PVLDB-PolySI.pdf \[PDF\]];
+[https://arxiv.org/abs/2301.07313 \[arXiv Version\]];
 [papers/2023-PVLDB-PolySI-Abstract.md \[Abstract\]];
-[papers/2023-PVLDB-PolySI-Fund.md \[Funding\]]
+[papers/2023-PVLDB-PolySI-Fund.md \[Funding\]];
+[https://dl.acm.org/doi/10.14778/3583140.3583145 \[ACM Link\]]
+[papers/2023-PVLDB-PolySI-bib.md \[bib\]]
 
 ==== 2022
 . Xue Jiang, *Hengfeng Wei\**, Yu Huang.\n

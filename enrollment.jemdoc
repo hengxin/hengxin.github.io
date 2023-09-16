@@ -11,19 +11,13 @@
 == 科研课题 (Learn on [ocw.html ocw])
 
 - Distributed Transactions (分布式事务)
-- Distributed Consensus (分布式共识问题)
 - Formal Methods (TLA+\/TLAPS; SAT\/SMT) (形式化方法)
 
-== 项目课题
-- [http://jepsen.io/ Jepsen] 分布式系统测试框架移植与扩展
-  -- [https://github.com/hengxin/jepsen-in-cpp jepsen-in-cpp] [https://github.com/hengxin/jepsen-in-java jepsen-in-java] [https://github.com/hengxin/jepsen-in-python jepsen-in-python]
-- Hackathon 赛事
-  -- [https://www.mongodb.com/ MongoDB] [https://mongoing.com/archives/25744 Hackathon]
-  -- [https://pingcap.com/ TiDB] [https://zhuanlan.zhihu.com/p/345523553 Hackathon]
-  -- [https://redislabs.com/ RedisLab] [https://redislabs.com/hackathon-2021/ Hackathon]
-- [https://lamport.azurewebsites.net/tla/tla.html TLA+/TLC] 工具功能扩展开发
-  -- 内容: 可视化、动画、调试工具等
-
 == [https://github.com/hengxin/nju-thesis 毕业设计]
-- [ 毕业设计选题 (2022年 待定)]
+
+== 招生要求
+
+- 熟悉 C/C++/Java/Python 程序设计语言
+- 基本的中文写作能力
+- 基本的英文阅读能力
 ~~~
