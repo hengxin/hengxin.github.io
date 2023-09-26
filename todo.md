@@ -12,10 +12,7 @@
   - +PDF icon
   - +video
   - +code/github link
-- jemdoc
-  - [make](https://jemdoc.jaboc.net/stuff.html)
-  - +chinese version
-  - Google Analytics (ref: https://jemdoc.jaboc.net/modelines.html)
+- Google Analytics (ref: https://jemdoc.jaboc.net/modelines.html)
 - +funding
 - +awards
 - links
