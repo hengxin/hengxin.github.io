@@ -7,8 +7,8 @@
 - [https://github.com/hengxin/sat-smt-satisfying/blob/master/seminar/SAT/Resources.md SAT]
 - SMT (TBD)
 - [https://www.bilibili.com/video/BV1a4411d7k5?share_source=copy_web&vd_source=afddc1f6e07c3046ed07519aa34370fd Model Checking]
-- Isabelle/HOL (TBD)
 - Coq (TBD)
+- Isabelle/HOL (TBD)
 ~~~
 
 ~~~
@@ -22,8 +22,9 @@ Eventual Consistency by Sebastian Burckhardt]
 
 ~~~
 == Databases
-- [https://www.bilibili.com/video/BV1qf4y1J7mX?share_source=copy_web CMU 14-455: Intro. to Database Systems]
-- [https://www.bilibili.com/video/BV1wv411w7Ko?share_source=copy_web CMU 15-721: Advanced Database Systems]
+- [https://space.bilibili.com/479141149/channel/collectiondetail?sid=1681002  CMU 15-445/645: Intro. to Database System (Fall 2023)]
+	- [https://www.bilibili.com/video/BV1qf4y1J7mX?share_source=copy_web CMU 14-455: Intro. to Database Systems (Fall 2019)]
+- [https://www.bilibili.com/video/BV1wv411w7Ko?share_source=copy_web CMU 15-721: Advanced Database Systems (Spring 2020)]
 - [https://github.com/hengxin/awesome-dbs awesome-dbs @ GitHub]
 ~~~
 
