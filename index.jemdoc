@@ -32,12 +32,20 @@ with the Department of Computer Science and Technology at Nanjing University.
 ~~~
 === Selected Recent Publications
 ==== Work In Progress
-. /Verifying Transactional Protocols of MongoDB/. [https://arxiv.org/abs/2111.14946 \[arXiv Version\]]
-. /A Generic Specification Framework for Weakly Consistent Replicated Data Types/. (Journal version of SRDS'2020)
+. Xue Jiang, *Hengfeng Wei\**, Yu Huang.\n
+/A Generic Specification Framework for Weakly Consistent Replicated Data Types/.\n
+IEEE Transactions on Parallel and Distributed Systems (*TPDS (Under review)*).\n
 
 *(\*: Corresponding Author)*
 
 ==== 2023
+. Si Liu, Luca Multazzu, *Hengfeng Wei*, David Basin.\n
+/NOC-NOC: Towards Performance-optimal Distributed Transactions/.\n
+International Conference on Management of Data (*SIGMOD (Accepted)*; June 2024), xxx-xxx.\n
+[ \[PDF\]];
+[ \[Abstract\]];
+[ \[ACM Link\]];
+[ \[bib\]];
 . Kaile Huang, Si Liu, Zhenge Chen, *Hengfeng Wei\**, David Basin, Haixiang Li, Anqun Pan.\n
 /Efficient Black-box Checking of Snapshot Isolation in Databases/.\n
 Proc. VLDB Endow. 16, 6 (*PVLDB*; February 2023), 1264–1276.\n
