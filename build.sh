@@ -11,6 +11,12 @@ for file in "$dir"/*.jemdoc; do
     fi
 done
 
+echo "$files"
+
+echo "Begin to push to GitHub"
+
 git add .
 git commit -m "$files"
 git push origin master
+
+echo "End"
