@@ -38,15 +38,21 @@ IEEE Transactions on Parallel and Distributed Systems (*TPDS (Under review)*).\n
 
 *(\*: Corresponding Author)*
 
-==== 2023
-. Si Liu, Luca Multazzu, *Hengfeng Wei*, David Basin.\n
+==== 2024
+. Long Gu (NJU), Si Liu (ETH), Tiancheng Xing (NJU), *Hengfeng Wei\** (NJU), Yuxing Chen (Tencent), David Basin (ETH)
+/IsoVista: Black-box Checking Database Isolation Guarantees/.\n
+Proc. VLDB Endow. Volume xx, No. xx (*PVLDB* (Accepted; *Demo Track*); August 2024), xxx–xxx.\n
+
+. Si Liu (ETH), Luca Multazzu (ETH), *Hengfeng Wei* (NJU), David Basin (ETH).\n
 /NOC-NOC: Towards Performance-optimal Distributed Transactions/.\n
-International Conference on Management of Data (*SIGMOD (Accepted)*; June 2024), xxx-xxx.\n
-[ \[PDF\]];
+Proc. ACM Manag. Data, Vol. 2, No. 1 (*SIGMOD*; June 2024), Article 9. 9:1-9:25.\n
+[papers/2024-SIGMOD-NOCNOC.pdf \[PDF\]];
 [ \[Abstract\]];
-[ \[ACM Link\]];
+[https://dl.acm.org/doi/10.1145/3639264 \[ACM Link\]];
 [ \[bib\]];
-. Kaile Huang, Si Liu, Zhenge Chen, *Hengfeng Wei\**, David Basin, Haixiang Li, Anqun Pan.\n
+
+==== 2023
+. Kaile Huang (NJU), Si Liu (ETH), Zhenge Chen (NJU), *Hengfeng Wei\** (NJU), David Basin (ETH), Haixiang Li (Tencent), Anqun Pan (Tencent).\n
 /Efficient Black-box Checking of Snapshot Isolation in Databases/.\n
 Proc. VLDB Endow. Volume 16, No. 6 (*PVLDB*; April 2023), 1264–1276.\n
 [papers/2023-PVLDB-PolySI.pdf \[PDF\]];
