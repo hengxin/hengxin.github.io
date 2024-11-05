@@ -1,0 +1,10 @@
+@article{IsoVista:PVLDB2024,
+  author       = {Long Gu and Si Liu and Tiancheng Xing and Hengfeng Wei and Yuxing Chen and David A. Basin},
+  title        = {IsoVista: Black-box Checking Database Isolation Guarantees},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {17},
+  number       = {12},
+  pages        = {4325--4328},
+  year         = {2024},
+  url          = {https://www.vldb.org/pvldb/vol17/p4325-liu.pdf},
+}
