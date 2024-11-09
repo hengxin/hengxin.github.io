@@ -3,8 +3,7 @@
 My homepage hosted by [jemdoc](https://jemdoc.jaboc.net/).
 
 ## Usage
-First, `jemdoc.py` all `.jemdoc` files like this:
-> python2 jemdoc.py index.jemdoc
-Then `git push` as usual
+
+Run `./build.sh` after modifying any `*.jemdoc` files.
 
 ## [TODO](todo.md)
