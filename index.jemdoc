@@ -34,8 +34,13 @@ with the Department of Computer Science and Technology at Nanjing University.
 
 *(\*: Corresponding Author)*
 
+==== 2025
+. Xue Jiang, *Hengfeng Wei*\*, Yu Huang, Yuxing Chen, Anqun Pan.\n
+/A Generic Specification Framework for Weakly Consistent Replicated Data Types/.\n
+(*TPDS* 2025; Minor Revision)
+
 ==== 2024
-. Guangyuan Wu (NJU), Weining Cao (NJU), Yuan Yao\* (NJU), *Hengfeng Wei* (NJU), Taolue Chen (UoL), Xiaoxing Ma (NJU).\n
+. Guangyuan Wu, Weining Cao, Yuan Yao\*, *Hengfeng Wei*, Taolue Chen, Xiaoxing Ma.\n
 /LLM Meets Bounded Model Checking: Neuro-symbolic Loop Invariant Inference/.\n
 In 39th IEEE/ACM International Conference on Automated Software Engineering (*ASE* 2024),
 October 27-November 1, 2024, 12 pages.\n
@@ -43,21 +48,21 @@ October 27-November 1, 2024, 12 pages.\n
 [papers/2024-ASE-LaM4Inv \[PDF\]];
 [papers/2024-ASE-LaM4Inv-Abstract.md \[Abstract\]];
 [papers/2024-ASE-LaM4Inv-bib.md \[bib\]]
-. Si Liu (ETH), Long Gu (NJU), *Hengfeng Wei\** (NJU), David Basin (ETH).\n
+. Si Liu, Long Gu, *Hengfeng Wei\**, David Basin.\n
 /Plume: Efficient and Complete Black-box Checking of Weak Isolation Levels/.\n
 Proc. ACM Program. Lang. 8, *OOPSLA2*, Article 302 (October 2024), 29 pages.\n
 [https://doi.org/10.1145/3689742 \[ACM Link\]]
 [papers/2024-OOPSLA-Plume \[PDF\]];
 [papers/2024-OOPSLA-Plume-Abstract.md \[Abstract\]];
 [papers/2024-OOPSLA-Plume-bib.md \[bib\]]
-. Long Gu (NJU), Si Liu (ETH), Tiancheng Xing (NJU), *Hengfeng Wei\** (NJU), Yuxing Chen (Tencent), David Basin (ETH).\n
+. Long Gu, Si Liu, Tiancheng Xing, *Hengfeng Wei\**, Yuxing Chen, David Basin.\n
 /IsoVista: Black-box Checking Database Isolation Guarantees/.\n
 Proc. VLDB Endow. (*VLDB* 2024; Demo Track) 17.12 (Aug. 2024), pp. 4325–4328.\n
 [https://www.vldb.org/pvldb/vol17/p4325-liu.pdf \[PVLDB Link\]]
 [papers/2024-PVLDB-IsoVista \[PDF\]];
 [papers/2024-PVLDB-IsoVista-Abstract.md \[Abstract\]];
 [papers/2024-PVLDB-IsoVista-bib.md \[bib\]]
-. Si Liu (ETH), Luca Multazzu (ETH), *Hengfeng Wei* (NJU), David Basin (ETH).\n
+. Si Liu, Luca Multazzu, *Hengfeng Wei*, David Basin.\n
 /NOC-NOC: Towards Performance-optimal Distributed Transactions/.\n
 Proc. ACM Manag. Data, Vol. 2, No. 1 (*SIGMOD*; June 2024), Article 9. 9:1-9:25.\n
 [https://dl.acm.org/doi/10.1145/3639264 \[ACM Link\]];
