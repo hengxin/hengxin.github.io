@@ -37,7 +37,8 @@ with the Department of Computer Science and Technology at Nanjing University.
 ==== 2025
 . Xue Jiang, *Hengfeng Wei\**, Yu Huang, Yuxing Chen, Anqun Pan.\n
 /A Generic Specification Framework for Weakly Consistent Replicated Data Types/.\n
-(*TPDS* 2025; Accepted)
+(*TPDS* 2025; Accepted)\n
+[papers/2025-TPDS-Specs \[PDF\]];
 
 ==== 2024
 . Guangyuan Wu, Weining Cao, Yuan Yao\*, *Hengfeng Wei*, Taolue Chen, Xiaoxing Ma.\n
@@ -71,7 +72,7 @@ Proc. ACM Manag. Data, Vol. 2, No. 1 (*SIGMOD*; June 2024), Article 9. 9:1-9:25.
 [papers/2024-SIGMOD-NOCNOC-bib.md \[bib\]];
 
 ==== 2023
-. Kaile Huang (NJU), Si Liu (ETH), Zhenge Chen (NJU), *Hengfeng Wei\** (NJU), David Basin (ETH), Haixiang Li (Tencent), Anqun Pan (Tencent).\n
+. Kaile Huang, Si Liu, Zhenge Chen, *Hengfeng Wei\**, David Basin, Haixiang Li, Anqun Pan.\n
 /Efficient Black-box Checking of Snapshot Isolation in Databases/.\n
 Proc. VLDB Endow. Volume 16, No. 6 (*PVLDB*; April 2023), 1264–1276.\n
 [https://dl.acm.org/doi/10.14778/3583140.3583145 \[ACM Link\]]
