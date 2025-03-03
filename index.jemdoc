@@ -4,12 +4,13 @@
 ~~~
 {}{img_left}{figs/hfwei-blue.jpg}{Hengfeng Wei}{120}{160}{https://software.nju.edu.cn/szll/szdw/index.html}\n
 *Research Assistant* \n
-(From 2020-08)
+(From 2020-09)
 \n\n
 [https://software.nju.edu.cn/ Software Institute] \n
 [https://keysoftlab.nju.edu.cn/ State Key Laboratory for Novel Software Technology] \n
 [https://www.nju.edu.cn/ Nanjing University] \n
-\n
+\n\n
+[cv/简历-南京大学-魏恒峰-20250302.pdf \[简历-南京大学-魏恒峰-20250302\]];
 ~~~
 
 ~~~
@@ -26,7 +27,7 @@ from Nanjing University in 2009 and 2016, respectively.
 From 2017-01 to 2020-08, I was a research assistant
 with the Department of Computer Science and Technology at Nanjing University.
 
-[research.html My research interests include Distributed Computing and Formal Methods. ~~*<<more>>*]
+[research.html My research interests include Distributed Computing and Database Systems. ~~*<<more>>*]
 ~~~
 
 ~~~
@@ -37,7 +38,7 @@ with the Department of Computer Science and Technology at Nanjing University.
 ==== 2025
 . Xue Jiang, *Hengfeng Wei\**, Yu Huang, Yuxing Chen, Anqun Pan.\n
 /A Generic Specification Framework for Weakly Consistent Replicated Data Types/.\n
-(*TPDS* 2025; Accepted)\n
+(*TPDS* 2025; Accepted, PrePrints)\n
 [papers/2025-TPDS-Specs \[PDF\]];
 
 ==== 2024
