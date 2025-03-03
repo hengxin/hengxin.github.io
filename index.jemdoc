@@ -39,14 +39,17 @@ with the Department of Computer Science and Technology at Nanjing University.
 . Xue Jiang, *Hengfeng Wei\**, Yu Huang, Yuxing Chen, Anqun Pan.\n
 /A Generic Specification Framework for Weakly Consistent Replicated Data Types/.\n
 (*TPDS* 2025; Accepted, PrePrints)\n
+[https://ieeexplore.ieee.org/abstract/document/10852187 \[IEEE Link\]];
 [papers/2025-TPDS-Specs \[PDF\]];
+[papers/2025-TPDS-Specs-Abstract  \[Abstract\]];
+[papers/2025-TPDS-Specs-Fund.md \[Funding\]]
 
 ==== 2024
 . Guangyuan Wu, Weining Cao, Yuan Yao\*, *Hengfeng Wei*, Taolue Chen, Xiaoxing Ma.\n
 /LLM Meets Bounded Model Checking: Neuro-symbolic Loop Invariant Inference/.\n
 In 39th IEEE/ACM International Conference on Automated Software Engineering (*ASE* 2024),
 12 pages.\n
-[https://doi.org/10.1145/3691620.3695014 \[ACM Link\]]
+[https://doi.org/10.1145/3691620.3695014 \[ACM Link\]];
 [papers/2024-ASE-LaM4Inv \[PDF\]];
 [papers/2024-ASE-LaM4Inv-Abstract.md \[Abstract\]];
 [papers/2024-ASE-LaM4Inv-bib.md \[bib\]]
