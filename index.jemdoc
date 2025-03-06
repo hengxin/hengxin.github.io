@@ -45,14 +45,6 @@ with the Department of Computer Science and Technology at Nanjing University.
 [papers/2025-TPDS-Specs-Fund.md \[Funding\]]
 
 ==== 2024
-. Guangyuan Wu, Weining Cao, Yuan Yao\*, *Hengfeng Wei*, Taolue Chen, Xiaoxing Ma.\n
-/LLM Meets Bounded Model Checking: Neuro-symbolic Loop Invariant Inference/.\n
-In 39th IEEE/ACM International Conference on Automated Software Engineering (*ASE* 2024),
-12 pages.\n
-[https://doi.org/10.1145/3691620.3695014 \[ACM Link\]];
-[papers/2024-ASE-LaM4Inv \[PDF\]];
-[papers/2024-ASE-LaM4Inv-Abstract.md \[Abstract\]];
-[papers/2024-ASE-LaM4Inv-bib.md \[bib\]]
 . Si Liu, Long Gu, *Hengfeng Wei\**, David Basin.\n
 /Plume: Efficient and Complete Black-box Checking of Weak Isolation Levels/.\n
 Proc. ACM Program. Lang. 8, *OOPSLA2*, Article 302 (October 2024), 29 pages.\n
@@ -93,11 +85,8 @@ Journal of Computer Science and Technology (*JCST*), 37(1):128-146, Jan. 2022.\n
 [papers/2022-JCST-MongoDB-CCC.pdf \[PDF\]] (Journal version of the Internetware'2020/2021 paper);
 [papers/2022-JCST-MongoDB-CCC-Abstract.md \[Abstract\]];
 [papers/2022-JCST-MongoDB-CCC-Fund.md \[Funding\]]
+
 ==== 2021
-. Yuqi Zhang, *Hengfeng Wei\**, Yu Huang\*.\n
-/Remove-Win: a Design Framework for Conflict-free Replicated Data Types/.\n
-The 27th IEEE International Conference on Parallel and Distributed Systems (*ICPADS*), 2021.\n
-[https://github.com/elem-azar-unis/CRDT-Redis/blob/master/document/rwf-tr.pdf \[PDF (Extended Version)\]]
 . Manuel Bravo, Alexey Gotsman, Borja de Régil, *Hengfeng Wei*.\n
 /UniStore: A Fault-tolerant Marriage of Causal and Strong Consistency/.\n
 The 2021 USENIX Annual Technical Conference (*USENIX ATC*), July, 2021.\n
@@ -111,12 +100,6 @@ Journal of Software (*JOS*), 32(6):1748-1778, 2021.\n
 [papers/2021-JOS-PRaft.pdf \[PDF\]];
 [https://www.bilibili.com/video/BV15K411V7KJ?share_source=copy_web \[Video at bilibili\]];
 [papers/2021-JOS-PRaft-en.pdf \[PDF (in English; ICSI'2021) \]]
-. Hongrong Ouyang, *Hengfeng Wei\**, Yu Huang.\n
-/Checking Causal Consistency of MongoDB/.\n
-The 12th Asia-Pacific Symposium on Internetware (*Internetware*), May 12-14. 2021.\n
-[papers/2021-Internetware-MongoDB-CCC.pdf \[PDF\]];
-[https://www.bilibili.com/video/BV1dK4y197FS?share_source=copy_web \[Video at bilibili\]]
-. Lingzhi Ouyang, Yu Huang, *Hengfeng Wei*, Jian Lu.\n
 /Achieving Probabilistic Atomicity with Well-Bounded Staleness and Low Read Latency in Distributed Datastores/.\n
 IEEE Transactions on Parallel and Distributed Systems (*TPDS*), 32(4):815-829, Apr. 2021.\n
 [papers/2021-TPDS-ASC.pdf \[PDF\]];
@@ -141,10 +124,6 @@ In the Proceeding of the ACM Symposium on Principles of Distributed Computing (*
 Journal of Software (*JOS*), 31(8):2336-2361, 2020.\n
 [papers/2020-JOS-TPaxos.pdf \[PDF\]];
 [https://www.bilibili.com/video/BV1hV411E7w6?share_source=copy_web \[Video at bilibili\]]
-. Ye Ji, *Hengfeng Wei\**, Yu Huang, Jian Lu.\n
-/Specifying and Verifying CRDT Protocols Using TLA+ (in Chinese)/.\n
-Journal of Software (*JOS*), 31(5):1332-1352, 2020.\n
-[papers/2020-JOS-CRDT.pdf \[PDF\]]
 
 \n
 [publications.html *Full List of Publications*]
