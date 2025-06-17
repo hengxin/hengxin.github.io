@@ -38,16 +38,34 @@ with the Department of Computer Science and Technology at Nanjing University.
 ==== 2025
 . Hexu Li, *Hengfeng Wei\**, Hongrong Ouyang, Yuxing Chen, Na Yang, Ruohao Zhang, Anqun Pan.\n
 /Online Timestamp-based Transactional Isolation Checking of Database Systems/.\n
-IEEE International Conference on Data Engineering (*ICDE* 2025).\n
+2025 IEEE 41st International Conference on Data Engineering (*ICDE* 2025).\n
+Hong Kong, 2025, pp. 3738-3750, doi: 10.1109/ICDE65448.2025.00279.\n
+[https://www.computer.org/csdl/proceedings-article/icde/2025/360300d738/26FZC0ImYsU \[IEEE Link\]];
+[papers/2025-ICDE-TimeKiller.pdf \[PDF\]];
+[papers/2025-ICDE-TimeKiller-TR.pdf \[Tech Report\]];
+[papers/2025-ICDE-TimeKiller-Abstract.md  \[Abstract\]];
+[papers/2025-ICDE-TimeKiller-bib.md  \[bib\]];
+[papers/2025-ICDE-TimeKiller-Fund.md \[Funding\]]
+
 . *Hengfeng Wei*, Jiang Xiao, Na Yang, Si Liu, Zijing Yin, Yuxing Chen\*, Anqun Pan.\n
 /Boosting End-to-End Database Isolation Checking via Mini-Transactions/.\n
-IEEE International Conference on Data Engineering (*ICDE* 2025).\n
+IEEE 41st International Conference on Data Engineering (*ICDE* 2025).\n
+Hong Kong, 2025, pp. 3998-4010, doi: 10.1109/ICDE65448.2025.00298.\n
+[https://www.computer.org/csdl/proceedings-article/icde/2025/360300d998/26FZCeQ3uJW \[IEEE Link\]];
+[papers/2025-ICDE-MiniTesting.pdf \[PDF\]];
+[papers/2025-ICDE-MiniTesting-TR.pdf \[Tech Report\]];
+[papers/2025-ICDE-MiniTestint-Abstract.md  \[Abstract\]];
+[papers/2025-ICDE-MiniTesting-bib.md  \[bib\]];
+[papers/2025-ICDE-MiniTesting-Fund.md \[Funding\]]
+
 . Xue Jiang, *Hengfeng Wei\**, Yu Huang, Yuxing Chen, Anqun Pan.\n
 /A Generic Specification Framework for Weakly Consistent Replicated Data Types/.\n
-(*TPDS* 2025)\n
-[https://ieeexplore.ieee.org/abstract/document/10852187 \[IEEE Link\]];
+in IEEE Transactions on Parallel and Distributed Systems (*TPDS* 2025),\n
+vol. 36, no. 6, pp. 1338-1353, June 2025, doi: 10.1109/TPDS.2025.3533546.\n
+[https://ieeexplore.ieee.org/document/10852187 \[IEEE Link\]];
 [papers/2025-TPDS-Specs.pdf \[PDF\]];
 [papers/2025-TPDS-Specs-Abstract.md  \[Abstract\]];
+[papers/2025-TPDS-Specs-bib.md  \[bib\]];
 [papers/2025-TPDS-Specs-Fund.md \[Funding\]]
 
 ==== 2024
