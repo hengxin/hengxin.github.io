@@ -6,7 +6,7 @@ files="update files: "
 for file in "$dir"/*.jemdoc; do
     if [[ "$file" -nt "${file%.jemdoc}.html" ]]; then
         files+="$file "
-        python2 jemdoc.py "$file"
+        python jemdoc.py "$file"
         echo "Compiled $file"
     fi
 done
