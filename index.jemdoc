@@ -1,39 +1,58 @@
 # jemdoc: menu{MENU}{index.html}
-==Hengfeng Wei (魏恒峰) (To be updated in September 2025)
+==Hengfeng Wei (魏恒峰)
 
 ~~~
-{}{img_left}{figs/hfwei-blue.jpg}{Hengfeng Wei}{120}{160}{https://software.nju.edu.cn/szll/szdw/index.html}\n
-*Research Assistant* \n
-(From 2020-09)
+{}{img_left}{figs/hfwei-blue.jpg}{Hengfeng Wei}{120}{160}{https://csee.hnu.edu.cn/people/weihengfeng}\n
+*Associate Professor* \n
+(Since August 2025)
 \n\n
-[https://software.nju.edu.cn/ Software Institute] \n
-[https://keysoftlab.nju.edu.cn/ State Key Laboratory for Novel Software Technology] \n
-[https://www.nju.edu.cn/ Nanjing University] \n
+[https://csee.hnu.edu.cn/ College of Computer Science and Electronic Engineering] \n
+[https://www.hnu.edu.cn/ Hunan University] \n
 \n
-[cv/简历-南京大学-魏恒峰-20250330.pdf \[简历-20250330-中文\]];
 ~~~
 
 ~~~
-{}{img_left}{figs/hfwei-mail.png}{hfwei}{120}{30}{https://software.nju.edu.cn/szll/szdw/index.html}\n
+{}{img_left}{figs/hfwei-hnu-mail.png}{hfwei}{120}{30}{https://csee.hnu.edu.cn/people/weihengfeng}\n
 ~~~
 
 ~~~
 == About me
-I am now a research assistant with Software Institute at Nanjing University.
+I am currently an associate professor
+in the College of Computer Science and Electronic Engineering
+at Hunan University.
 
-I received the B.S. and Ph.D. degrees in computer science and technology
+I received my B.S. and Ph.D. degrees in Computer Science and Technology
 from Nanjing University in 2009 and 2016, respectively.
 
-From 2017-01 to 2020-08, I was a research assistant
-with the Department of Computer Science and Technology at Nanjing University.
+From January 2017 to August 2020,
+I was a research assistant
+in the Department of Computer Science and Technology
+at Nanjing University.
+From September 2020 to July 2025,
+I was a research assistant
+in Software Institute at Nanjing University.
 
-[research.html My research interests include Distributed Computing and Database Systems. ~~*<<more>>*]
+[research.html My research interests
+include Database Systems, Distributed Computing, and Formal Methods. ~~*<<more>>*]
 ~~~
 
 ~~~
 === Selected Recent Publications
 
 *(\*: Corresponding Author)*
+
+==== 2026
+. Zhiheng Cai, Si Liu, *Hengfeng Wei\**, Yuxing Chen, Anqun Pan.\n
+/Fast Verification of Strong Database Isolation/.\n
+Proc. VLDB Endow. (Accepted by *VLDB* 2026) xx.xx (Aug. 2026), pp. xxxx–xxxx.\n
+/(The initial draft of this work was prepared
+while Hengfeng Wei and Zhiheng Cai
+were with Software Institute, Nanjing University.)/.\n
+[  \[PVLDB Link\]]
+[  \[PDF\]];
+[papers/2026-arXiv-VeriStrong \[PDF (Extended Version)\]];
+[papers/2026-PVLDB-VeriStrong-Abstract.md \[Abstract\]];
+[  \[bib\]]
 
 ==== 2025
 . Hexu Li, *Hengfeng Wei\**, Hongrong Ouyang, Yuxing Chen, Na Yang, Ruohao Zhang, Anqun Pan.\n
