@@ -45,14 +45,14 @@ include Database Systems, Distributed Computing, and Formal Methods. ~~*<<more>>
 . Zhiheng Cai, Si Liu, *Hengfeng Wei\**, Yuxing Chen, Anqun Pan.\n
 /Fast Verification of Strong Database Isolation/.\n
 Proc. VLDB Endow. (Accepted by *VLDB* 2026) xx.xx (Aug. 2026), pp. xxxx–xxxx.\n
-/(The initial draft of this work was prepared
-while Hengfeng Wei and Zhiheng Cai
-were with Software Institute, Nanjing University.)/.\n
 [  \[PVLDB Link\]]
 [  \[PDF\]];
-[papers/2026-arXiv-VeriStrong.pdf \[PDF (Extended Version)\]];
+[papers/2025-arXiv-VeriStrong.pdf \[PDF (Extended Version)\]];
 [papers/2026-PVLDB-VeriStrong-Abstract.md \[Abstract\]];
-[  \[bib\]]
+[  \[bib\]]\n
+/(The initial draft of this work was prepared
+while Hengfeng Wei and Zhiheng Cai
+were with Software Institute, Nanjing University.)/
 
 ==== 2025
 . Hexu Li, *Hengfeng Wei\**, Hongrong Ouyang, Yuxing Chen, Na Yang, Ruohao Zhang, Anqun Pan.\n
