@@ -4,10 +4,11 @@
 ~~~
 == Research (Learn on [ocw.html ocw])
 
-- Distributed Computing and Distributed Systems
+- Database Systems and Distributed Systems
+  -- Transactional Consistency Models (i.e., Isolation Levels)
   -- Distributed Data Consistency
-  -- Distributed Transactions
 - Formal Methods
   -- TLA+/TLAPS
+  -- Coq
   -- SAT/SMT
 ~~~
