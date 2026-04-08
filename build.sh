@@ -1,22 +1,62 @@
 #!/bin/bash
 
-dir="."
+set -euo pipefail
 
-files="update files: "
-for file in "$dir"/*.jemdoc; do
-    if [[ "$file" -nt "${file%.jemdoc}.html" ]]; then
-        files+="$file "
-        python2 jemdoc.py "$file"
-        echo "Compiled $file"
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+find_python2() {
+    local local_python2
+
+    if [[ -d "$script_dir/.python2" ]]; then
+        local_python2="$(find "$script_dir/.python2" -maxdepth 3 -type f \( -name 'pypy.exe' -o -name 'python.exe' -o -name 'pypy' -o -name 'python2' \) | head -n 1)"
+        if [[ -n "$local_python2" ]]; then
+            printf '%s\n' "$local_python2"
+            return 0
+        fi
+    fi
+
+    if command -v python2 >/dev/null 2>&1; then
+        command -v python2
+        return 0
+    fi
+
+    echo "Python 2 runtime not found. Install a repo-local runtime under .python2/ or add python2 to PATH." >&2
+    exit 1
+}
+
+python2_bin="$(find_python2)"
+dependencies=(
+    "$script_dir/MENU"
+    "$script_dir/jemdoc.py"
+    "$script_dir/jemdoc.css"
+)
+
+compiled_files=()
+
+for file in "$script_dir"/*.jemdoc; do
+    target="${file%.jemdoc}.html"
+    needs_build=false
+
+    if [[ ! -f "$target" ]]; then
+        needs_build=true
+    else
+        for dependency in "$file" "${dependencies[@]}"; do
+            if [[ "$dependency" -nt "$target" ]]; then
+                needs_build=true
+                break
+            fi
+        done
+    fi
+
+    if [[ "$needs_build" == true ]]; then
+        "$python2_bin" "$script_dir/jemdoc.py" "$file"
+        echo "Compiled $(basename "$file")"
+        compiled_files+=("$(basename "$file")")
     fi
 done
 
-echo "$files"
-
-echo "Begin to push to GitHub"
-
-git add .
-git commit -m "$files"
-git push origin master
-
-echo "End"
+if [[ ${#compiled_files[@]} -eq 0 ]]; then
+    echo "No pages needed recompilation."
+else
+    printf 'Updated files: %s\n' "${compiled_files[*]}"
+fi
