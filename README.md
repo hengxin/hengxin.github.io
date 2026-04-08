@@ -8,5 +8,6 @@ Run `./build.sh` on Unix-like shells, or `./build.ps1` in PowerShell, after modi
 
 Both scripts rebuild pages when any source file, `MENU`, `jemdoc.py`, or `jemdoc.css` changes.
 If a repo-local Python 2 runtime is available under `.python2/`, it will be used automatically.
+If the build completes successfully and the repository has changes, the scripts will `git commit` and `git push` automatically.
 
 ## [TODO](todo.md)

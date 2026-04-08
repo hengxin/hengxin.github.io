@@ -3,6 +3,20 @@ $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $repoRoot
 
+function Invoke-CheckedCommand {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$FilePath,
+
+        [string[]]$Arguments = @()
+    )
+
+    & $FilePath @Arguments
+    if ($LASTEXITCODE -ne 0) {
+        throw "Command failed with exit code $LASTEXITCODE: $FilePath $($Arguments -join ' ')"
+    }
+}
+
 function Get-Python2Runtime {
     $localRuntime = Get-ChildItem -Path (Join-Path $repoRoot '.python2') -Recurse -File -ErrorAction SilentlyContinue |
         Where-Object { $_.Name -in @('pypy.exe', 'python.exe', 'pypy', 'python2') } |
@@ -44,7 +58,7 @@ Get-ChildItem -Path $repoRoot -Filter '*.jemdoc' | Sort-Object Name | ForEach-Ob
     }
 
     if ($needsBuild) {
-        & $python2 (Join-Path $repoRoot 'jemdoc.py') $source
+        Invoke-CheckedCommand -FilePath $python2 -Arguments @((Join-Path $repoRoot 'jemdoc.py'), $source)
         Write-Host "Compiled $($_.Name)"
         $compiled += $_.Name
     }
@@ -55,3 +69,34 @@ if ($compiled.Count -eq 0) {
 } else {
     Write-Host ('Updated files: ' + ($compiled -join ', '))
 }
+
+$status = (& git status --porcelain)
+if ($LASTEXITCODE -ne 0) {
+    throw 'Failed to inspect git status.'
+}
+
+if ([string]::IsNullOrWhiteSpace(($status | Out-String))) {
+    Write-Host 'No git changes to commit.'
+    return
+}
+
+$commitMessage = 'Update site'
+if ($compiled.Count -gt 0) {
+    $commitMessage = "Rebuild site ($($compiled.Count) pages)"
+}
+
+Invoke-CheckedCommand -FilePath 'git' -Arguments @('add', '-A')
+
+$stagedChanges = (& git diff --cached --name-only)
+if ($LASTEXITCODE -ne 0) {
+    throw 'Failed to inspect staged changes.'
+}
+
+if ([string]::IsNullOrWhiteSpace(($stagedChanges | Out-String))) {
+    Write-Host 'No staged changes to commit.'
+    return
+}
+
+Invoke-CheckedCommand -FilePath 'git' -Arguments @('commit', '-m', $commitMessage)
+Invoke-CheckedCommand -FilePath 'git' -Arguments @('push')
+Write-Host 'Committed and pushed successfully.'

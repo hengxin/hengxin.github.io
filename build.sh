@@ -60,3 +60,24 @@ if [[ ${#compiled_files[@]} -eq 0 ]]; then
 else
     printf 'Updated files: %s\n' "${compiled_files[*]}"
 fi
+
+if [[ -z "$(git status --porcelain)" ]]; then
+    echo "No git changes to commit."
+    exit 0
+fi
+
+commit_message="Update site"
+if [[ ${#compiled_files[@]} -gt 0 ]]; then
+    commit_message="Rebuild site (${#compiled_files[@]} pages)"
+fi
+
+git add -A
+
+if git diff --cached --quiet; then
+    echo "No staged changes to commit."
+    exit 0
+fi
+
+git commit -m "$commit_message"
+git push
+echo "Committed and pushed successfully."
