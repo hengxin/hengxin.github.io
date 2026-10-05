@@ -369,17 +369,18 @@ table.imgtable, table.imgtable td {
 /* Publication link row.
    Each entry in the publication lists ends with one nowrap row of icon-only
    buttons: one per companion file (abstract / bib / funding / PDF ...) plus
-   the code repository.  The glyphs are monochrome SVGs that inherit the
-   button colour, so the hover style tints them too. */
+   the code repository.  The glyphs are coloured SVGs (figs/icon-*.svg) that
+   follow each link's own convention - PDF red, arXiv red, GitHub black, and so
+   on - so a row is readable at a glance. */
 span.pubicons {
     display: inline-block;
     white-space: nowrap;
-    line-height: 1.7;
+    line-height: 1.9;
 }
 
 a.pubbtn {
     display: inline-block;
-    margin: 0 0.22em 0 0;
+    margin: 0 0.5em 0 0;
     padding: 1px 3px 0 3px;
     border: 1px solid #c8c8c8;
     border-radius: 4px;
@@ -404,4 +405,31 @@ a.pubbtn img {
     width: 13px;
     height: 13px;
     border: none;
+}
+
+a.pubbtn:hover img,
+a.pubbtn:focus img {
+    opacity: 0.72;
+}
+
+/* An extended-version PDF gets a small red "+" badge on its top-right corner. */
+a.pubbtn.plus {
+    position: relative;
+}
+
+a.pubbtn.plus::after {
+    content: "+";
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #ec1c24;
+    /* a hairline ring so the red badge does not merge with the red PDF glyph */
+    box-shadow: 0 0 0 1.5px #fff;
+    color: #fff;
+    font: 700 9px/11px Arial, Helvetica, sans-serif;
+    text-align: center;
+    pointer-events: none;
 }
