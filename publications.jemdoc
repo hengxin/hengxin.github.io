@@ -4,6 +4,46 @@
 ~~~
 *(\*: Corresponding Author)*
 
+==== 2026
+. Zhiheng Cai, Si Liu, *Hengfeng Wei\**, Yuxing Chen, Anqun Pan.\n
+/Fast Verification of Strong Database Isolation/.\n
+Proc. VLDB Endow. (*VLDB* 2026) 19.4 (Dec. 2025), pp. 563–575,
+doi: 10.14778\/3785297.3785300.\n
+[https://doi.org/10.14778/3785297.3785300 \[PVLDB Link\]];
+[papers/2026-PVLDB-VeriStrong.pdf \[PDF\]];
+[papers/2025-arXiv-VeriStrong.pdf \[PDF (Extended Version)\]];
+[papers/2026-PVLDB-VeriStrong-Abstract.md \[Abstract\]]
+. Weining Cao, Guangyuan Wu, Yuan Yao, *Hengfeng Wei*, Taolue Chen, Xiaoxing Ma.\n
+/I3DP: Neuro-Symbolic Inductive Invariant Inference for Distributed Protocols/.\n
+The ACM SIGOPS 32nd Symposium on Operating Systems Principles (*SOSP* 2026),
+pp. 620–635, doi: 10.1145/3830418.3843876.\n
+[https://doi.org/10.1145/3830418.3843876 \[ACM Link\]];
+[papers/2026-arXiv-I3DP.pdf \[PDF (Preprint)\]];
+[https://arxiv.org/abs/2605.24619 \[arXiv Version\]]
+. Guangyuan Wu, Weining Cao, Zehui Tan, Yuan Yao, *Hengfeng Wei*, Taolue Chen, Xiaoxing Ma.\n
+/InvWeaver: Deductive Feedback for Invariant Synthesis in Interacting-Loop Programs/.\n
+arXiv preprint arXiv:2607.05478, July 2026.\n
+[https://arxiv.org/abs/2607.05478 \[arXiv Link\]];
+[papers/2026-arXiv-InvWeaver.pdf \[PDF\]]
+. Zhiheng Cai, Si Liu, *Hengfeng Wei*, Yuxing Chen.\n
+/Extending Elle for Transaction Workloads with Duplicate Values/.\n
+The 1st Symposium on Consistency Checking Principles (*SCCP* 2026; co-located with *VLDB* 2026),
+Boston, USA, Sep. 2026.\n
+[papers/2026-SCCP-ElleDuplicateValues.pdf \[PDF\]];
+[https://arxiv.org/abs/2607.17515 \[arXiv Version\]]
+. Qiuhuan Xiong, *Hengfeng Wei*, Si Liu, Yuxing Chen, Jidong Ge.\n
+/Semantic Conformance of Concurrency Control Protocols under Mixed Isolation Levels/.\n
+The 1st Symposium on Consistency Checking Principles (*SCCP* 2026; co-located with *VLDB* 2026),
+Boston, USA, Sep. 2026.\n
+[papers/2026-SCCP-SemanticConformance.pdf \[PDF\]];
+[https://arxiv.org/abs/2607.16696 \[arXiv Version\]]
+. *Hengfeng Wei*, Si Liu, Yuxing Chen.\n
+/Specifying and Analyzing Transactional Consistency Models with Predicates/ (Extended Abstract).\n
+The 1st Symposium on Consistency Checking Principles (*SCCP* 2026; co-located with *VLDB* 2026),
+Boston, USA, Sep. 2026.\n
+[papers/2026-SCCP-Predicates.pdf \[PDF\]];
+[https://sccp-workshop.github.io/sccp26/program.html \[SCCP 2026 Program\]]
+
 ==== 2025
 . Weining Cao, Guangyuan Wu, Tangzhi Xu, Yuan Yao, *Hengfeng Wei*, Taolue Chen, Xiaoxing Ma.\n
 /Clause2Inv: A Generate-Combine-Check Framework for Loop Invariant Inference/.\n

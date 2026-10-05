@@ -44,15 +44,22 @@ include Database Systems, Distributed Computing, and Formal Methods. ~~*<<more>>
 ==== 2026
 . Zhiheng Cai, Si Liu, *Hengfeng Wei\**, Yuxing Chen, Anqun Pan.\n
 /Fast Verification of Strong Database Isolation/.\n
-Proc. VLDB Endow. (Accepted by *VLDB* 2026) xx.xx (Aug. 2026), pp. xxxx–xxxx.\n
-[  \[PVLDB Link\]]
-[  \[PDF\]];
+Proc. VLDB Endow. (*VLDB* 2026) 19.4 (Dec. 2025), pp. 563–575,
+doi: 10.14778\/3785297.3785300.\n
+[https://doi.org/10.14778/3785297.3785300 \[PVLDB Link\]];
+[papers/2026-PVLDB-VeriStrong.pdf \[PDF\]];
 [papers/2025-arXiv-VeriStrong.pdf \[PDF (Extended Version)\]];
 [papers/2026-PVLDB-VeriStrong-Abstract.md \[Abstract\]];
 [  \[bib\]]\n
 /(The initial draft of this work was prepared
 while Hengfeng Wei and Zhiheng Cai
 were with Software Institute, Nanjing University.)/
+. *Hengfeng Wei*, Si Liu, Yuxing Chen.\n
+/Specifying and Analyzing Transactional Consistency Models with Predicates/ (Extended Abstract).\n
+The 1st Symposium on Consistency Checking Principles (*SCCP* 2026; co-located with *VLDB* 2026),
+Boston, USA, Sep. 2026.\n
+[papers/2026-SCCP-Predicates.pdf \[PDF\]];
+[https://sccp-workshop.github.io/sccp26/program.html \[SCCP 2026 Program\]]
 
 ==== 2025
 . Hexu Li, *Hengfeng Wei\**, Hongrong Ouyang, Yuxing Chen, Na Yang, Ruohao Zhang, Anqun Pan.\n
