@@ -366,33 +366,42 @@ table.imgtable, table.imgtable td {
     text-align: left;
 }
 
-/* Code / repository button used in the publication lists. */
+/* Publication link row.
+   Each entry in the publication lists ends with one nowrap row of icon-only
+   buttons: one per companion file (abstract / bib / funding / PDF ...) plus
+   the code repository.  The glyphs are monochrome SVGs that inherit the
+   button colour, so the hover style tints them too. */
+span.pubicons {
+    display: inline-block;
+    white-space: nowrap;
+    line-height: 1.7;
+}
+
 a.pubbtn {
     display: inline-block;
-    margin-left: 0.15em;
-    padding: 0 0.45em 0.05em 0.3em;
+    margin: 0 0.22em 0 0;
+    padding: 1px 3px 0 3px;
     border: 1px solid #c8c8c8;
     border-radius: 4px;
     background: #f6f6f6;
-    color: #333;
-    font-size: 88%;
-    line-height: 1.45;
+    color: #444;
+    line-height: 1;
     text-decoration: none;
-    vertical-align: 1px;
+    vertical-align: -3px;
     white-space: nowrap;
 }
 
-a.pubbtn:hover {
-    background: #e9e9e9;
-    border-color: #8c8c8c;
+a.pubbtn:hover,
+a.pubbtn:focus {
+    background: #e6e6e6;
+    border-color: #8a8a8a;
     color: #000;
     text-decoration: none;
 }
 
 a.pubbtn img {
+    display: block;
     width: 13px;
     height: 13px;
-    margin-right: 0.2em;
     border: none;
-    vertical-align: -2px;
 }
