@@ -127,10 +127,10 @@ Proc. VLDB Endow. Volume 16, No. 6 (*PVLDB*; April 2023), 1264–1276.\n
 ==== 2022
 . Xue Jiang, *Hengfeng Wei\**, Yu Huang.\n
 /Tunable Causal Consistency: Specification and Implementation/.\n
-The 28th IEEE International Conference on Parallel and Distributed Systems (*ICPADS*), Jan. 2023.\n
+The 28th IEEE International Conference on Parallel and Distributed Systems (*ICPADS*), Jan. 2023.\n\n[papers/2022-arXiv-TCC.pdf \[PDF (Preprint)\]];\n[https://arxiv.org/abs/2211.03501 \[arXiv Version\]]
 . Yi Huang, *Hengfeng Wei*.\n
 /Incremental Causal Consistency Checking for Read-Write Memory Histories/.\n
-The 13th Asia-Pacific Symposium on Internetware (*Internetware*), June 11-12, 2022.\n
+The 13th Asia-Pacific Symposium on Internetware (*Internetware*), June 11-12, 2022.\n\n[https://dl.acm.org/doi/10.1145/3545258.3545262 \[ACM Link\]]
 . Hongrong Ouyang, *Hengfeng Wei\**, Yu Huang, Haixiang Li\*, Anqun Pan.\n
 /Checking Causal Consistency of MongoDB/.\n
 Journal of Computer Science and Technology (*JCST*), 37(1):128-146, Jan. 2022.\n
@@ -142,6 +142,7 @@ Journal of Computer Science and Technology (*JCST*), 37(1):128-146, Jan. 2022.\n
 . Yuqi Zhang, *Hengfeng Wei\**, Yu Huang\*.\n
 /Remove-Win: a Design Framework for Conflict-free Replicated Data Types/.\n
 The 27th IEEE International Conference on Parallel and Distributed Systems (*ICPADS*), 2021.\n
+[papers/2021-ICPADS-RemoveWin.pdf \[PDF\]];
 [https://github.com/elem-azar-unis/CRDT-Redis/blob/master/document/rwf-tr.pdf \[PDF (Extended Version)\]]
 . Manuel Bravo, Alexey Gotsman, Borja de Régil, *Hengfeng Wei*.\n
 /UniStore: A Fault-tolerant Marriage of Causal and Strong Consistency/.\n
@@ -198,7 +199,7 @@ The 22nd International Conference on Principles of Distributed Systems (*OPODIS*
 [papers/2018-OPODIS-Jupiter.pdf \[PDF\]]
 . *Hengfeng Wei*, Yu Huang, and Jian Lu.\n
 /Brief Announcement: Specification and Implementation of Replicated List: the Jupiter Protocol Revisited/.\n
-Proceedings of the 2018 ACM Symposium on Principles of Distributed Computing (*PODC*), 2018, pp. 81–83.\n
+Proceedings of the 2018 ACM Symposium on Principles of Distributed Computing (*PODC*), 2018, pp. 81–83.\n\n[papers/2018-PODC-BA-Jupiter.pdf \[PDF\]]
 
 ==== 2017
 . *Hengfeng Wei*, Yu Huang, and Jian Lu.\n
