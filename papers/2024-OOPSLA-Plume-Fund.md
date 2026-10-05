@@ -1,0 +1,1 @@
+We appreciate the anonymous reviewers for their valuable feedback. We also extend our thanks to Zihe Song for her contribution in identifying isolation bugs in MariaDB-Galera. Si Liu was supported by an ETH Zurich Career Seed Award.

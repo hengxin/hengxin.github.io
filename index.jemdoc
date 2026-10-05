@@ -41,6 +41,16 @@ include Database Systems, Distributed Computing, and Formal Methods. ~~*<<more>>
 
 *(\*: Corresponding Author)*
 
+==== 2027
+. Zhou Zhou, Si Liu\*, *Hengfeng Wei*, Min Zhang\*.\n
+/Distribution-Aware Distributed Database Testing/ (Extended Version).\n
+Proc. VLDB Endow. (*PVLDB* 2027), to appear.\n
+[https://arxiv.org/abs/2609.18501 \[arXiv Version\]];
+[papers/2027-PVLDB-DAT.pdf \[PDF (Extended Version)\]];
+[papers/2027-PVLDB-DAT-Abstract.md \[Abstract\]];
+[papers/2027-PVLDB-DAT-bib.md \[bib\]];
+[papers/2027-PVLDB-DAT-Fund.md \[Funding\]]\n {{<a class="pubbtn" href="https://github.com/duerwuyi/DAT" target="_blank" rel="noopener"><img src="figs/icon-github.svg" alt="" />Repo</a>}}
+
 ==== 2026
 . Zhiheng Cai, Si Liu, *Hengfeng Wei\**, Yuxing Chen, Anqun Pan.\n
 /Fast Verification of Strong Database Isolation/.\n
@@ -50,7 +60,8 @@ doi: 10.14778\/3785297.3785300.\n
 [papers/2026-PVLDB-VeriStrong.pdf \[PDF\]];
 [papers/2025-arXiv-VeriStrong.pdf \[PDF (Extended Version)\]];
 [papers/2026-PVLDB-VeriStrong-Abstract.md \[Abstract\]];
-[  \[bib\]]\n
+[papers/2026-PVLDB-VeriStrong-bib.md \[bib\]];
+[papers/2026-PVLDB-VeriStrong-Fund.md \[Funding\]]\n {{<a class="pubbtn" href="https://github.com/CzxingcHen/VeriStrong" target="_blank" rel="noopener"><img src="figs/icon-github.svg" alt="" />Repo</a>}}\n
 /(The initial draft of this work was prepared
 while Hengfeng Wei and Zhiheng Cai
 were with Software Institute, Nanjing University.)/
@@ -59,7 +70,9 @@ were with Software Institute, Nanjing University.)/
 The 1st Symposium on Consistency Checking Principles (*SCCP* 2026; co-located with *VLDB* 2026),
 Boston, USA, Sep. 2026.\n
 [papers/2026-SCCP-Predicates.pdf \[PDF\]];
-[https://sccp-workshop.github.io/sccp26/program.html \[SCCP 2026 Program\]]
+[https://sccp-workshop.github.io/sccp26/program.html \[SCCP 2026 Program\]];
+[papers/2026-SCCP-Predicates-Abstract.md \[Abstract\]];
+[papers/2026-SCCP-Predicates-bib.md \[bib\]]
 
 ==== 2025
 . Hexu Li, *Hengfeng Wei\**, Hongrong Ouyang, Yuxing Chen, Na Yang, Ruohao Zhang, Anqun Pan.\n
@@ -71,7 +84,7 @@ Hong Kong, 2025, pp. 3738-3750, doi: 10.1109/ICDE65448.2025.00279.\n
 [papers/2025-ICDE-TimeKiller-TR.pdf \[Tech Report\]];
 [papers/2025-ICDE-TimeKiller-Abstract.md  \[Abstract\]];
 [papers/2025-ICDE-TimeKiller-bib.md  \[bib\]];
-[papers/2025-ICDE-TimeKiller-Fund.md \[Funding\]]
+[papers/2025-ICDE-TimeKiller-Fund.md \[Funding\]]\n {{<a class="pubbtn" href="https://github.com/FertileFragrance/TimeKiller" target="_blank" rel="noopener"><img src="figs/icon-github.svg" alt="" />Repo</a>}}
 . *Hengfeng Wei*, Jiang Xiao, Na Yang, Si Liu, Zijing Yin, Yuxing Chen\*, Anqun Pan.\n
 /Boosting End-to-End Database Isolation Checking via Mini-Transactions/.\n
 IEEE 41st International Conference on Data Engineering (*ICDE* 2025).\n
@@ -99,14 +112,16 @@ Proc. ACM Program. Lang. 8, *OOPSLA2*, Article 302 (October 2024), 29 pages.\n
 [https://doi.org/10.1145/3689742 \[ACM Link\]]
 [papers/2024-OOPSLA-Plume.pdf \[PDF\]];
 [papers/2024-OOPSLA-Plume-Abstract.md \[Abstract\]];
-[papers/2024-OOPSLA-Plume-bib.md \[bib\]]
+[papers/2024-OOPSLA-Plume-bib.md \[bib\]];
+[papers/2024-OOPSLA-Plume-Fund.md \[Funding\]]\n {{<a class="pubbtn" href="https://github.com/dracoooooo/Plume" target="_blank" rel="noopener"><img src="figs/icon-github.svg" alt="" />Repo</a>}}
 . Long Gu, Si Liu, Tiancheng Xing, *Hengfeng Wei\**, Yuxing Chen, David Basin.\n
 /IsoVista: Black-box Checking Database Isolation Guarantees/.\n
 Proc. VLDB Endow. (*VLDB* 2024; Demo Track) 17.12 (Aug. 2024), pp. 4325–4328.\n
 [https://www.vldb.org/pvldb/vol17/p4325-liu.pdf \[PVLDB Link\]]
 [papers/2024-PVLDB-IsoVista.pdf \[PDF\]];
 [papers/2024-PVLDB-IsoVista-Abstract.md \[Abstract\]];
-[papers/2024-PVLDB-IsoVista-bib.md \[bib\]]
+[papers/2024-PVLDB-IsoVista-bib.md \[bib\]];
+[papers/2024-PVLDB-IsoVista-Fund.md \[Funding\]]\n {{<a class="pubbtn" href="https://github.com/hengxin/IsoVista" target="_blank" rel="noopener"><img src="figs/icon-github.svg" alt="" />Repo</a>}}
 . Si Liu, Luca Multazzu, *Hengfeng Wei*, David Basin.\n
 /NOC-NOC: Towards Performance-optimal Distributed Transactions/.\n
 Proc. ACM Manag. Data, Vol. 2, No. 1 (*SIGMOD*; June 2024), Article 9. 9:1-9:25.\n
@@ -114,6 +129,7 @@ Proc. ACM Manag. Data, Vol. 2, No. 1 (*SIGMOD*; June 2024), Article 9. 9:1-9:25.
 [papers/2024-SIGMOD-NOCNOC.pdf \[PDF\]];
 [papers/2024-SIGMOD-NOCNOC-Abstract.md \[Abstract\]];
 [papers/2024-SIGMOD-NOCNOC-bib.md \[bib\]];
+[papers/2024-SIGMOD-NOCNOC-Fund.md \[Funding\]]
 
 ==== 2023
 . Kaile Huang, Si Liu, Zhenge Chen, *Hengfeng Wei\**, David Basin, Haixiang Li, Anqun Pan.\n
@@ -124,7 +140,7 @@ Proc. VLDB Endow. Volume 16, No. 6 (*PVLDB*; April 2023), 1264–1276.\n
 [https://arxiv.org/abs/2301.07313 \[arXiv Version\]];
 [papers/2023-PVLDB-PolySI-Abstract.md \[Abstract\]];
 [papers/2023-PVLDB-PolySI-Fund.md \[Funding\]];
-[papers/2023-PVLDB-PolySI-bib.md \[bib\]]
+[papers/2023-PVLDB-PolySI-bib.md \[bib\]]\n {{<a class="pubbtn" href="https://github.com/hengxin/PolySI-PVLDB2023-Artifacts" target="_blank" rel="noopener"><img src="figs/icon-github.svg" alt="" />Repo</a>}}
 
 ==== 2022
 . Hongrong Ouyang, *Hengfeng Wei\**, Yu Huang, Haixiang Li\*, Anqun Pan.\n
@@ -132,7 +148,8 @@ Proc. VLDB Endow. Volume 16, No. 6 (*PVLDB*; April 2023), 1264–1276.\n
 Journal of Computer Science and Technology (*JCST*), 37(1):128-146, Jan. 2022.\n
 [papers/2022-JCST-MongoDB-CCC.pdf \[PDF\]] (Journal version of the Internetware'2020/2021 paper);
 [papers/2022-JCST-MongoDB-CCC-Abstract.md \[Abstract\]];
-[papers/2022-JCST-MongoDB-CCC-Fund.md \[Funding\]]
+[papers/2022-JCST-MongoDB-CCC-Fund.md \[Funding\]];
+[papers/2022-JCST-MongoDB-CCC-bib.md \[bib\]]
 
 ==== 2021
 . Manuel Bravo, Alexey Gotsman, Borja de Régil, *Hengfeng Wei*.\n
@@ -141,37 +158,55 @@ The 2021 USENIX Annual Technical Conference (*USENIX ATC*), July, 2021.\n
 [papers/2021-ATC-Unistore.pdf \[PDF\]];
 [papers/2021-ATC-Unistore-arXiv.pdf \[PDF (Extended Version)\]];
 [papers/2021-ATC-Unistore-Abstract.md \[Abstract\]];
-[papers/2021-ATC-Unistore-Fund.md \[Funding\]]
+[papers/2021-ATC-Unistore-Fund.md \[Funding\]];
+[papers/2021-ATC-Unistore-bib.md \[bib\]]
 . Xiaosong Gu, *Hengfeng Wei\**, Lei Qiao, Yu Huang.\n
 /Raft with Out-of-Order Executions (in Chinese)/.\n
 Journal of Software (*JOS*), 32(6):1748-1778, 2021.\n
 [papers/2021-JOS-PRaft.pdf \[PDF\]];
 [https://www.bilibili.com/video/BV15K411V7KJ?share_source=copy_web \[Video at bilibili\]];
-[papers/2021-JOS-PRaft-en.pdf \[PDF (in English; ICSI'2021) \]]
+[papers/2021-JOS-PRaft-en.pdf \[PDF (in English; ICSI'2021) \]];
+[papers/2021-JOS-PRaft-Abstract.md \[Abstract\]];
+[papers/2021-JOS-PRaft-bib.md \[bib\]];
+[papers/2021-JOS-PRaft-Fund.md \[Funding\]]
+. Lingzhi Ouyang, Yu Huang, *Hengfeng Wei*, Jian Lu.\n
 /Achieving Probabilistic Atomicity with Well-Bounded Staleness and Low Read Latency in Distributed Datastores/.\n
 IEEE Transactions on Parallel and Distributed Systems (*TPDS*), 32(4):815-829, Apr. 2021.\n
 [papers/2021-TPDS-ASC.pdf \[PDF\]];
 [papers/2021-TPDS-ASC-Abstract.md \[Abstract\]];
 [papers/2021-TPDS-ASC-Fund.md \[Funding\]];
+[papers/2021-TPDS-ASC-bib.md \[bib\]]
 
 ==== 2020
 . *Hengfeng Wei*, Ruize Tang, Yu Huang, Jian Lu.\n
 /Jupiter Made Abstract, and Then Refined/.\n
 Journal of Computer Science and Technology (*JCST*), 35(6):1343-1364, Dec. 2020.\n
-[papers/2020-JCST-Jupiter.pdf \[PDF\]]
+[papers/2020-JCST-Jupiter.pdf \[PDF\]];
+[papers/2020-JCST-Jupiter-Abstract.md \[Abstract\]];
+[papers/2020-JCST-Jupiter-bib.md \[bib\]];
+[papers/2020-JCST-Jupiter-Fund.md \[Funding\]]
 . Xue Jiang, *Hengfeng Wei\**, Yu Huang.\n
 /A Generic Specification Framework for Weakly Consistent Replicated Data Types/.\n
 In the Proceeding of the 39th International Symposium on Reliable Distributed Systems (*SRDS*), Sep. 2020.\n
-[papers/2020-SRDS-SpecFramework.pdf \[PDF\]]
+[papers/2020-SRDS-SpecFramework.pdf \[PDF\]];
+[papers/2020-SRDS-SpecFramework-Abstract.md \[Abstract\]];
+[papers/2020-SRDS-SpecFramework-bib.md \[bib\]];
+[papers/2020-SRDS-SpecFramework-Fund.md \[Funding\]]
 . Kaile Huang, Yu Huang, *Hengfeng Wei*.\n
 /Fine-grained Analysis on Fast Implementations of Distributed Multi-writer Atomic Registers/.\n
 In the Proceeding of the ACM Symposium on Principles of Distributed Computing (*PODC*), Aug. 2020.\n
-[papers/2020-PODC-FastAtomic.pdf \[PDF\]]
+[papers/2020-PODC-FastAtomic.pdf \[PDF\]];
+[papers/2020-PODC-FastAtomic-Abstract.md \[Abstract\]];
+[papers/2020-PODC-FastAtomic-bib.md \[bib\]];
+[papers/2020-PODC-FastAtomic-Fund.md \[Funding\]]
 . Xingchen Yi, *Hengfeng Wei\**, Yu Huang, Lei Qiao, Jian Lu.\n
 /TPaxos in PaxosStore: Derivation, Specification and Refinement (in Chinese)/.\n
 Journal of Software (*JOS*), 31(8):2336-2361, 2020.\n
 [papers/2020-JOS-TPaxos.pdf \[PDF\]];
-[https://www.bilibili.com/video/BV1hV411E7w6?share_source=copy_web \[Video at bilibili\]]
+[https://www.bilibili.com/video/BV1hV411E7w6?share_source=copy_web \[Video at bilibili\]];
+[papers/2020-JOS-TPaxos-Abstract.md \[Abstract\]];
+[papers/2020-JOS-TPaxos-bib.md \[bib\]];
+[papers/2020-JOS-TPaxos-Fund.md \[Funding\]]
 
 \n
 [publications.html *Full List of Publications*]
