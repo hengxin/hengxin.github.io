@@ -1,6 +1,7 @@
 .history/
 .python2/
 .workbuddy/
+Temp/
 
 # 2026-10-02 学院论文核查材料：含工号与手机号，而本仓库为 public，暂不入库
 papers/20261002-论文清查/
