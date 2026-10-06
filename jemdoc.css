@@ -435,3 +435,43 @@ a.pubbtn.plus::after {
     text-align: center;
     pointer-events: none;
 }
+
+/* A paper with no public code repository still shows the repository glyph, so
+   that a missing chip reads as "checked, there is none" rather than "forgot to
+   link it".  It is deliberately a <span>, not an <a> - there is no target -
+   and it is greyed out and struck through: obviously not clickable. */
+span.pubbtn {
+    display: inline-block;
+    margin: 0 15pt 0 0;
+    padding: 2px 4px 1px 4px;
+    border: 1px dashed #cfcfcf;
+    border-radius: 6px;
+    background: #fbfbfb;
+    line-height: 1;
+    vertical-align: -5px;
+    white-space: nowrap;
+    position: relative;
+    cursor: not-allowed;
+    /* desaturate the whole chip, glyph included */
+    filter: grayscale(1);
+}
+
+span.pubbtn img {
+    display: block;
+    /* 13px * 1.5, same as a.pubbtn img */
+    width: 19.5px;
+    height: 19.5px;
+    border: none;
+    opacity: 0.3;
+}
+
+/* A diagonal strike through the glyph: unmistakably "no repository". */
+span.pubbtn::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    right: 3px;
+    top: 50%;
+    border-top: 1.5px solid #b0b0b0;
+    transform: rotate(-45deg);
+}
