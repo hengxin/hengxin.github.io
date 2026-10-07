@@ -26,9 +26,31 @@ import sys
 import os
 import re
 import time
+import locale
 import StringIO
 from subprocess import *
 import tempfile
+
+# [local patch] Under Python 2 time.strftime('%Z') returns a *byte* string encoded
+# with whatever the C runtime uses: on Windows that is the ANSI code page (cp936 on
+# a zh-CN machine), not UTF-8. The generated page declares charset=utf-8, so a
+# localized timezone name ends up as mojibake in the footer. Normalise it to UTF-8.
+def toutf8(s):
+  if isinstance(s, unicode):
+    return s.encode('utf-8')
+  try:
+    s.decode('utf-8')
+    return s
+  except UnicodeDecodeError:
+    pass
+  for enc in (locale.getpreferredencoding(), 'mbcs'):
+    if not enc:
+      continue
+    try:
+      return s.decode(enc).encode('utf-8')
+    except (UnicodeDecodeError, LookupError):
+      continue
+  return s
 
 def info():
   print __doc__
@@ -1480,6 +1502,7 @@ def procfile(f):
       else:
         ts = '%Y-%m-%d'
       s = time.strftime(ts, time.localtime(time.time()))
+      s = toutf8(s)
       hb(f.outf, f.conf['lastupdated'], s)
     if showsourcelink:
       hb(f.outf, f.conf['sourcelink'], f.inname)
