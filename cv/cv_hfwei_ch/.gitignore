@@ -1,0 +1,13 @@
+# XeLaTeX/Biber/latexmk intermediates; retain the compiled PDF.
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.xdv
+build/

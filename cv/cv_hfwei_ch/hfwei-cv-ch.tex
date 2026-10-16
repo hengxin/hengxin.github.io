@@ -1,0 +1,169 @@
+% !TeX program = xelatex
+% !BIB program = biber
+% 中文简历；信息核对日期：2026-10-16。
+% 来源：index/research/publications/teaching/awards/students/activities.jemdoc。
+% 项目与早期任职细节保留自原简历；学院中文名称参照湖南大学教师介绍。
+\documentclass[11pt,a4paper,roman]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{purple}
+\usepackage{xeCJK}
+\setmainfont{texgyrepagella-regular.otf}[BoldFont=texgyrepagella-bold.otf,
+  ItalicFont=texgyrepagella-italic.otf,BoldItalicFont=texgyrepagella-bolditalic.otf]
+\setsansfont{texgyreheros-regular.otf}[BoldFont=texgyreheros-bold.otf,
+  ItalicFont=texgyreheros-italic.otf,BoldItalicFont=texgyreheros-bolditalic.otf]
+% 使用 TeX Live 自带字体，避免依赖系统中文字体。
+\setCJKmainfont{FandolSong-Regular.otf}[BoldFont=FandolSong-Bold.otf,ItalicFont=FandolKai-Regular.otf]
+\setCJKsansfont{FandolHei-Regular.otf}[BoldFont=FandolHei-Bold.otf]
+\setCJKmonofont{FandolFang-Regular.otf}
+\usepackage[left=22mm,right=22mm,top=20mm,bottom=20mm]{geometry}
+\usepackage{needspace}
+\usepackage{tabularx}
+% 银行式模板原来的 l/r 列无法换行；长项目名称与编号需自动折行。
+\renewcommand*{\cventry}[7][0.9em]{%
+  \begin{tabularx}{\textwidth}{@{}X r@{}}%
+    {\bfseries #4} & {\bfseries #5}\\%
+    {\itshape #3\ifthenelse{\equal{#6}{}}{}{, #6}} & {\itshape #2}\\%
+  \end{tabularx}%
+  \ifx&#7&\else{\\\vbox{\small#7}}\fi%
+  \par\addvspace{#1}}
+\renewcommand*{\subsectionfont}{\large\bfseries\upshape}
+\usepackage[backend=biber,style=numeric,sorting=none,maxbibnames=99,giveninits=false,
+  defernumbers=true,isbn=false,url=true,doi=true]{biblatex}
+\addbibresource{publications.bib}
+% moderncv 在导言末尾加载 hyperref，随后再设置链接和中文元数据。
+\AtEndPreamble{\hypersetup{colorlinks=true,linkcolor=color1,urlcolor=color1,
+  pdftitle={魏恒峰中文简历},pdfauthor={魏恒峰},pdfsubject={学术简历；更新于2026年10月16日}}}
+\urlstyle{same}
+\setlength{\emergencystretch}{2em}
+\renewcommand*{\mkbibnamegiven}[1]{\ifitemannotation{highlight}{\textbf{#1}}{#1}}
+\renewcommand*{\mkbibnamefamily}[1]{\ifitemannotation{highlight}{\textbf{#1}}{#1}}
+\renewcommand*{\bibfont}{\small}
+\setlength{\bibitemsep}{0.65\baselineskip}
+\AtEveryBibitem{\needspace{5\baselineskip}}
+\name{魏恒峰}{}
+\title{\Large 湖南大学 副教授}
+\address{\href{https://csee.hnu.edu.cn/people/weihengfeng}{信息科学与工程学院}}{}{}
+\phone[mobile]{13905194610}
+\email{hfwei@hnu.edu.cn}
+\homepage{hengxin.github.io}
+\extrainfo{\href{https://scholar.google.com/citations?user=HK9-98EAAAAJ}{Google Scholar}
+  \enspace | \enspace\href{https://github.com/hengxin}{GitHub}}
+
+\begin{document}
+\makecvtitle
+\vspace{-1.5em}
+\begin{center}\small 更新日期：2026 年 10 月 16 日\end{center}
+
+\section{个人简介与研究方向}
+2025 年 8 月起任湖南大学信息科学与工程学院副教授。
+2009 年、2016 年于南京大学获得计算机科学与技术专业学士、博士学位；
+2017 年 1 月至 2025 年 7 月先后在南京大学计算机学院、软件学院工作。
+
+\medskip
+研究领域包括\textbf{数据库系统、分布式计算与形式化方法}，
+重点关注数据库事务一致性（隔离级别）的建模、规约与验证，
+以及分布式数据一致性、复制数据类型和协议正确性。
+相关研究使用 TLA+/TLAPS、Coq、SAT/SMT 等形式化工具与技术。
+在 VLDB、SIGMOD、ICDE、SOSP、OOPSLA、ISSTA、ASE、PODC、USENIX ATC、TC、TPDS 等会议与期刊发表论文。
+
+\section{教育经历}
+\cventry{2009 年 9 月 -- 2016 年 12 月}{计算机科学与技术，博士}{南京大学}{计算机学院}{}
+  {导师：吕建教授、黄宇教授；博士论文：《分布数据一致性技术研究》。}
+\cventry{2005 年 9 月 -- 2009 年 6 月}{计算机科学与技术，学士}{南京大学}{计算机学院}{}{}
+
+\section{工作经历}
+\cventry{2025 年 8 月 -- 至今}{副教授}{湖南大学}{信息科学与工程学院}{}{}
+\cventry{2020 年 9 月 -- 2025 年 7 月}{特任副研究员}{南京大学}{软件学院}{}{}
+\cventry{2020 年 1 月 -- 2020 年 8 月}{特任副研究员}{南京大学}{计算机学院}{}{}
+\cventry{2017 年 1 月 -- 2019 年 12 月}{助理研究员}{南京大学}{计算机学院}{}{}
+
+\section{奖项与荣誉}
+\cventry{2017 年度}{中国计算机学会}{CCF 优秀博士学位论文奖}{}{}{}
+\cventry{2024 年}{全国大学生计算机系统能力大赛——编译系统设计赛}{优秀指导教师}{}{}{}
+\cventry{2022 年}{南京大学，校级}{东吴证券奖教金}{}{}{}
+\cventry{2019 年}{南京大学计算机学院，《问题求解》课程}{我心目中的好课程}{}{}{}
+
+\clearpage
+\section{科研项目}
+% 项目名称、编号、角色与时间沿用原简历，网站未提供完整项目清单。
+\cventry{2025 年 1 月 -- 2028 年 12 月}{国家自然科学基金，面上项目}
+  {事务型数据库系统执行历史高效验证问题研究}{主持}{}{批准号：62472214。}
+\cventry{2024 年 9 月 -- 2027 年 8 月}{江苏省基础研究计划自然科学基金，面上项目}
+  {数据库系统事务一致性验证问题研究}{主持}{}{项目编号：BK20242014。}
+\cventry{2021 年 12 月 -- 2022 年 12 月}{CCF-腾讯犀牛鸟基金，滚动支持}
+  {分布式事务一致性协议设计与验证技术研究}{主持}{}{批准号：RAGR20200124。}
+\cventry{2020 年 10 月 -- 2021 年 12 月}{CCF-腾讯犀牛鸟基金}
+  {分布事务一致性模型与协议分析}{主持}{}{批准号：RAGR20200124。}
+\cventry{2018 年 1 月 -- 2020 年 12 月}{国家自然科学基金，青年科学基金项目}
+  {面向分布式系统的复制数据类型理论与技术研究}{主持}{}{批准号：61702253。}
+\cventry{2021 年 1 月 -- 2022 年 1 月}{CCF-阿里巴巴创新研究计划（CCF-AIR 青年基金）}
+  {基于 RDMA 和 NVM 加速的 ParallelRaft 协议设计与验证技术研究}{参与，项目主要成员}{}{项目编号：ATA5DHZ42 10001。}
+
+\section{教学情况}
+\cventry{2021 -- 2024 年秋季}{南京大学软件学院}{C 语言程序设计基础}{}{}
+  {\href{http://docs.cpl.icu}{课程网站}\quad
+   \href{https://space.bilibili.com/479141149/channel/seriesdetail?sid=490580}{公开视频与教学资源}}
+\cventry{2020 -- 2022 年秋季；2023 -- 2024 年春季}{南京大学软件学院}{编译原理}{}{}
+  {\href{http://docs.compilers.cpl.icu}{课程网站}\quad
+   \href{https://space.bilibili.com/479141149/channel/seriesdetail?sid=490581}{公开视频与教学资源}}
+\cventry{2021 年春季}{南京大学软件学院}{离散数学}{}{}
+  {\href{https://github.com/courses-at-nju-by-hfwei/discrete-math-lectures}{讲义}\quad
+   \href{https://space.bilibili.com/479141149/channel/collectiondetail?sid=154382}{公开视频}}
+\cventry{2017 年春季 -- 2020 年春季}{南京大学计算机学院，拔尖班课程}{问题求解}{}{}
+  {\href{https://github.com/courses-at-nju-by-hfwei/problem-solving-class-lectures}{讲义与习题资源}}
+\cventry{2011 -- 2019 年}{南京大学计算机学院}{算法设计与分析（助教）}{}{}
+  {\href{https://tinyurl.com/algorithm-ta-tutorial}{习题课视频}}
+
+\section{学生培养}
+\cvitem{2025 -- 2026 年}{腾讯犀牛鸟精英人才计划：1 人。}
+\cvitem{2024 -- 2025 年}{腾讯犀牛鸟精英人才计划：1 人。}
+\cvitem{2024 年}{全国大学生计算机系统能力大赛——编译系统设计赛：指导 2 支队伍获得全国总决赛三等奖、优胜奖。}
+\cvitem{2024 年}{腾讯犀牛鸟开源人才培养计划：3 人，其中任务奖金获得者 2 人、优秀学生 1 人（本科生）。}
+\cvitem{2023 年}{指导校级优秀本科毕业论文：1 人。}
+
+\clearpage
+\section{论文与学术成果}
+\textbf{粗体}标注本人姓名，$\ast$ 标注通讯作者。
+下列条目按个人网站公布信息整理；待刊论文、研讨会论文与预印本单列。
+\nocite{*}
+\subsection{已发表的期刊与会议论文}
+\printbibliography[heading=none,keyword=published]
+\subsection{已接收、待刊论文}
+\printbibliography[heading=none,keyword=forthcoming]
+\subsection{研讨会论文与扩展摘要}
+\printbibliography[heading=none,keyword=workshop]
+\subsection{预印本}
+\printbibliography[heading=none,keyword=preprint]
+
+\clearpage
+\section{学术服务}
+\subsection{会议组织与程序委员会}
+\cventry{2026 年}{首届一致性检查原理研讨会，与 VLDB 2026 同期举行}
+  {\href{https://www.vldb.org/2026/workshops.html}{SCCP 2026 联合主席（Co-Chair）}}{}{}{}
+\cventry{2026 年}{Session 4: Many Models, One Theory}
+  {\href{https://sccp-workshop.github.io/sccp26/program.html}{SCCP 2026 分会场主席（Session Chair）}}{}{}{}
+\cventry{2026 年}{第 45 届国际可靠分布式系统研讨会}
+  {\href{https://srds-conference.org/index.php/program-committee/}{SRDS 2026 程序委员会委员}}{}{}{}
+\cventry{2026 年}{第 13 届分布式数据一致性原理与实践研讨会}
+  {\href{https://papoc-workshop.github.io/2026/committees.html}{PaPoC 2026 程序委员会委员}}{}{}{}
+
+\subsection{研究成果评估与可复现性评审}
+\cventry{2025 年}{Artifact Evaluation Committee}
+  {\href{https://www.usenix.org/conference/atc25/call-for-artifacts}{USENIX ATC 2025 研究成果评估委员会委员}}{}{}{}
+\cventry{2025 年}{Artifact Evaluation Committee}
+  {\href{https://www.usenix.org/conference/osdi25/call-for-artifacts}{OSDI 2025 研究成果评估委员会委员}}{}{}{}
+\cventry{2024、2025 年}{Availability \& Reproducibility Committee（ARC）}
+  {\href{https://reproducibility.sigmod.org/2025/}{SIGMOD 可获取性与可复现性委员会委员}}{}{}{}
+
+\subsection{期刊审稿}
+\cvitem{TCS}{\href{https://www.sciencedirect.com/journal/theoretical-computer-science}{Theoretical Computer Science}}
+\cvitem{JPDC}{\href{https://www.sciencedirect.com/journal/journal-of-parallel-and-distributed-computing}{Journal of Parallel and Distributed Computing}}
+\cvitem{JSEP}{\href{https://onlinelibrary.wiley.com/journal/20477481}{Journal of Software: Evolution and Process}}
+\cvitem{TAAS}{\href{https://dl.acm.org/journal/taas}{ACM Transactions on Autonomous and Adaptive Systems}}
+
+\subsection{科普与人才培养报告}
+\cvitem{2023 年}{“犀牛鸟中学科学人才培养计划”报告。}
+
+\section{行政服务}
+\cventry{2022 -- 2025 年}{南京大学软件学院}{教学委员会秘书}{}{}{}
+\end{document}
