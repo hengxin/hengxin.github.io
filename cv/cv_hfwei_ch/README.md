@@ -29,4 +29,14 @@ latexmk -xelatex -interaction=nonstopmode -halt-on-error hfwei-cv-ch.tex
 教学学期按网站明确列出的时间填写，不延伸为“至今”。
 论文作者顺序与通讯作者标记依照个人网站，元数据取自 `papers/*-bib.md`；
 2022 年 Incremental Causal Consistency 论文没有独立 BibTeX 文件，依据论文列表录入。
-待刊论文、研讨会论文与预印本分别列示；VeriStrong 同时注明 VLDB 2026 与 2025 年 12 月的出版日期。
+论文数据区分待刊论文、研讨会论文与预印本；VeriStrong 同时注明 VLDB 2026 与 2025 年 12 月的出版日期。
+
+## 简历论文展示范围
+
+2021 年及之后仅展示 CCF-A 类论文（含已接收的 PVLDB 待刊论文），2020 年及以前保留原论文列表。
+依据 [CCF 推荐目录说明](https://www.ccf.org.cn/Academic_Evaluation/By_category/2022-12-02/780280.shtml)，
+Demo、Workshop 等不计入推荐会议论文范围，因此 IsoVista 演示论文也不展示。
+《软件学报》不属于该国际 CCF-A 目录，其 2021 年条目不展示。
+
+全部 38 项论文数据仍保留在 `publications.bib`；源文件中 14 项不展示论文的 `\nocite` 语句已注释，
+研讨会与预印本的输出标题和命令也已注释，可按需恢复。
