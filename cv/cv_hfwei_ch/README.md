@@ -22,14 +22,15 @@ latexmk -xelatex -interaction=nonstopmode -halt-on-error hfwei-cv-ch.tex
 `index.jemdoc`、`research.jemdoc`、`publications.jemdoc`、`teaching.jemdoc`、
 `awards.jemdoc`、`students.jemdoc`、`activities.jemdoc`，并核对线上页面。
 邮箱取自网站 `figs/hfwei-hnu-mail.png`。
-学院中文名称参照[湖南大学教师介绍](https://csee.hnu.edu.cn/people/weihengfeng)。
+学院中文名称按本人要求采用“计算机学院”，[教师介绍链接](https://csee.hnu.edu.cn/people/weihengfeng)保持不变。
 
 项目名称、编号、起止时间、承担角色，以及南京大学早期任职细节和算法课程助教经历，
 沿用原简历中的信息；个人网站没有提供这些项目或经历的完整清单。
 教学学期按网站明确列出的时间填写，不延伸为“至今”。
 论文作者顺序与通讯作者标记依照个人网站，元数据取自 `papers/*-bib.md`；
 2022 年 Incremental Causal Consistency 论文没有独立 BibTeX 文件，依据论文列表录入。
-论文数据区分待刊论文、研讨会论文与预印本；VeriStrong 同时注明 VLDB 2026 与 2025 年 12 月的出版日期。
+论文元数据全部使用英文，简历中的论文统一列表展示，不按已发表或待刊状态分组。
+VeriStrong 保留 VLDB 2026 标记，出版日期通过 `date = {2025-12}` 显示。
 
 ## 简历论文展示范围
 
@@ -38,5 +39,4 @@ latexmk -xelatex -interaction=nonstopmode -halt-on-error hfwei-cv-ch.tex
 Demo、Workshop 等不计入推荐会议论文范围，因此 IsoVista 演示论文也不展示。
 《软件学报》不属于该国际 CCF-A 目录，其 2021 年条目不展示。
 
-全部 38 项论文数据仍保留在 `publications.bib`；源文件中 14 项不展示论文的 `\nocite` 语句已注释，
-研讨会与预印本的输出标题和命令也已注释，可按需恢复。
+全部 38 项论文数据仍保留在 `publications.bib`；源文件中 14 项不展示论文的 `\nocite` 语句已注释，可按需恢复。

@@ -2,7 +2,7 @@
 % !BIB program = biber
 % 中文简历；信息核对日期：2026-10-16。
 % 来源：index/research/publications/teaching/awards/students/activities.jemdoc。
-% 项目与早期任职细节保留自原简历；学院中文名称参照湖南大学教师介绍。
+% 项目与早期任职细节保留自原简历；学院中文名称按本人要求使用“计算机学院”。
 \documentclass[11pt,a4paper,roman]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{purple}
@@ -28,7 +28,7 @@
   \par\addvspace{#1}}
 \renewcommand*{\subsectionfont}{\large\bfseries\upshape}
 \usepackage[backend=biber,style=numeric,sorting=none,maxbibnames=99,giveninits=false,
-  defernumbers=true,isbn=false,url=true,doi=true]{biblatex}
+  isbn=false,url=true,doi=true]{biblatex}
 \addbibresource{publications.bib}
 % moderncv 在导言末尾加载 hyperref，随后再设置链接和中文元数据。
 \AtEndPreamble{\hypersetup{colorlinks=true,linkcolor=color1,urlcolor=color1,
@@ -42,7 +42,7 @@
 \AtEveryBibitem{\needspace{5\baselineskip}}
 \name{魏恒峰}{}
 \title{\Large 湖南大学 副教授}
-\address{\href{https://csee.hnu.edu.cn/people/weihengfeng}{信息科学与工程学院}}{}{}
+\address{\href{https://csee.hnu.edu.cn/people/weihengfeng}{计算机学院}}{}{}
 \phone[mobile]{13905194610}
 \email{hfwei@hnu.edu.cn}
 \homepage{hengxin.github.io}
@@ -55,7 +55,7 @@
 \begin{center}\small 更新日期：2026 年 10 月 16 日\end{center}
 
 \section{个人简介与研究方向}
-2025 年 8 月起任湖南大学信息科学与工程学院副教授。
+2025 年 8 月起任湖南大学计算机学院副教授。
 2009 年、2016 年于南京大学获得计算机科学与技术专业学士、博士学位；
 2017 年 1 月至 2025 年 7 月先后在南京大学计算机学院、软件学院工作。
 
@@ -72,7 +72,7 @@
 \cventry{2005 年 9 月 -- 2009 年 6 月}{计算机科学与技术，学士}{南京大学}{计算机学院}{}{}
 
 \section{工作经历}
-\cventry{2025 年 8 月 -- 至今}{副教授}{湖南大学}{信息科学与工程学院}{}{}
+\cventry{2025 年 8 月 -- 至今}{副教授}{湖南大学}{计算机学院}{}{}
 \cventry{2020 年 9 月 -- 2025 年 7 月}{特任副研究员}{南京大学}{软件学院}{}{}
 \cventry{2020 年 1 月 -- 2020 年 8 月}{特任副研究员}{南京大学}{计算机学院}{}{}
 \cventry{2017 年 1 月 -- 2019 年 12 月}{助理研究员}{南京大学}{计算机学院}{}{}
@@ -173,14 +173,7 @@
 \nocite{RVSI:SRDS2017}
 \nocite{VPC:TPDS2016}
 \nocite{CTL3:PerCom2012}
-\subsection{已发表的期刊与会议论文}
-\printbibliography[heading=none,keyword=published]
-\subsection{已接收、待刊论文}
-\printbibliography[heading=none,keyword=forthcoming]
-% \subsection{研讨会论文与扩展摘要}
-% \printbibliography[heading=none,keyword=workshop]
-% \subsection{预印本}
-% \printbibliography[heading=none,keyword=preprint]
+\printbibliography[heading=none]
 
 \clearpage
 \section{学术服务}
